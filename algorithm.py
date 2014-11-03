@@ -66,4 +66,4 @@ def filter_cpp_files(repo):
                 if _has_headers(cpp_file):
                     yield cpp_file
     except OSError:
-        print("Too many symlinks in repository {1}".format(repo_path))
+        print("Too many symlinks in repository {0}".format(repo_path))
