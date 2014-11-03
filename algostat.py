@@ -16,6 +16,8 @@ import os
 import tempfile
 import shutil
 import subprocess
+import signal
+import sys
 from pathlib import Path
 from collections import Counter
 
@@ -66,16 +68,25 @@ def count_repo_algorithms(repo):
 
 if __name__ == '__main__':
     args = docopt(__doc__)
+    all_algorithms = Counter()
+
+    def print_results():
+        print("-----------RESULT------------")
+        print(all_algorithms)
+
+    def signal_handler(signal, frame):
+        print_results()
+        sys.exit(0)
 
     def make_request(url):
         headers = {"Accept": "application/vnd.github.v3+json"}
         auth=HTTPBasicAuth(args["-u"], args["-p"])
         return requests.get(url, headers=headers, auth=auth)
 
-    all_algorithms = Counter()
+    signal.signal(signal.SIGINT, signal_handler)
+
     for git_url in get_cpp_repositories(make_request):
         with TemporaryGitRepo(git_url) as repo:
             all_algorithms += count_repo_algorithms(repo)
 
-    print("-----------RESULT------------")
-    print(all_algorithms)
+    print_results()

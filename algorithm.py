@@ -37,9 +37,13 @@ ALGORITHMS = [# Non-modifying sequence operations
 
 
 def _has_headers(cpp_file):
-    for line in cpp_file:
-        if "<algorithm>" in line or "<numeric>" in line:
-            return True
+    try:
+        for line in cpp_file:
+            if "<algorithm>" in line or "<numeric>" in line:
+                return True
+    except UnicodeDecodeError:
+        # We cannot do anything if we don't know the encoding of the file
+        pass
     return False
 
 
