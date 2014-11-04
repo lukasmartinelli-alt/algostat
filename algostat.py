@@ -46,19 +46,17 @@ class GitRepo:
 def clone(repo):
     """Clone a repository into a temporary directory which gets cleaned
     up afterwards"""
-    try:
-        repo.dir = tempfile.mkdtemp(suffix=repo.name.split("/")[1])
-        if VERBOSE:
-            print("Cloning {0} into {1}".format(repo.git_url, repo.dir))
-        with open(os.devnull, "w") as FNULL:
-            subprocess.check_call(["git", "clone", repo.git_url, repo.dir],
-                                   stdout=FNULL, stderr=subprocess.STDOUT)
-        yield repo
-    finally:
-        if VERBOSE:
-            print("Cleaning up {0}".format(repo.dir))
-        shutil.rmtree(repo.dir)
-        del repo.dir
+    repo.dir = tempfile.mkdtemp(suffix=repo.name.split("/")[1])
+    if VERBOSE:
+        print("Cloning {0} into {1}".format(repo.git_url, repo.dir))
+    with open(os.devnull, "w") as FNULL:
+        subprocess.check_call(["git", "clone", repo.git_url, repo.dir],
+                               stdout=FNULL, stderr=subprocess.STDOUT)
+    yield repo
+    if VERBOSE:
+        print("Cleaning up {0}".format(repo.dir))
+    shutil.rmtree(repo.dir)
+    del repo.dir
 
 
 def get_cpp_repositories(make_request):
@@ -99,8 +97,10 @@ def analyze_repo(repo):
             if len(repo_algorithms) > 0:
                 print_stats(repo, repo_algorithms)
             return repo_algorithms
-    except subprocess.CalledProcessError:
+    except Exception as e:
+        sys.stderr.write(str(e) + '\n')
         return Counter()
+
 
 if __name__ == '__main__':
     args = docopt(__doc__)
