@@ -1,0 +1,375 @@
+facebook/mcrouter max:287 find:164 count:82 min:82 generate:41 copy:41
+actor-framework/actor-framework find:37 equal:29 move:17 find_if:11 fill:8 sort:8 count:8 replace:8 max:5 any_of:4 lower_bound:4 unique:3 search:3 all_of:2 find_end:2 replace_if:2 none_of:1 min:1 is_sorted:1 fill_n:1 copy:1
+multitheftauto/multitheftauto min:107 move:104 count:64 find:57 sort:57 max:55 remove:53 search:11 generate:6 reverse:4 includes:4 equal:3 upper_bound:3 find_first_of:3 replace:2 transform:1
+billmccord/OpenCV-Android count:33 min:13 find:6 transform:6 fill:3 max:3 reverse:2 sort:2 max_element:2 swap:2 replace:1
+tekezo/Karabiner replace:16 copy:15 count:14 find:5 move:4 remove:3 remove_if:1
+yangyangwithgnu/hardseed find:25 max:9 copy:7 move:5 remove:5 replace:4 min:2 remove_copy:2 generate:2 remove_copy_if:2 copy_if:2 reverse:1 find_first_of:1
+maidsafe/MaidSafe unique:2 min:1 swap:1
+znc/znc find:39 min:19 move:15 remove:6 count:3 max:3 reverse:2 equal_range:2 equal:2 find_first_of:2 sort:1 generate:1 min_element:1
+adobe/brackets-app find:4 replace:4 min:3 copy:2 move:1 equal:1 replace_if:1
+alexrj/Slic3r min:88 max:75 move:28 find:25 reverse:21 count:21 merge:21 sort:21 swap:20 remove:19 rotate:18 fill:10 copy:9 generate:7 search:6 lower_bound:4 partition:2 equal:1 upper_bound:1 max_element:1
+WizTeam/WizQTClient merge:290 move:84 count:70 max:63 replace:62 remove:58 sort:28 find:25 min:24 search:21 copy:18 equal:10 fill:9 mismatch:2 reverse:1 unique:1 swap:1
+quarnster/SublimeClang count:10 find:8 sort:4 equal:4 lower_bound:4 upper_bound:2 move:1 max:1 search:1 remove:1
+miguelfreitas/twister-core find:372 min:332 count:319 max:296 move:130 remove:91 reverse:79 swap:70 equal:61 replace:57 copy:49 sort:48 find_if:33 fill:27 generate:19 shuffle:14 for_each:10 min_element:10 lower_bound:10 iter_swap:9 fill_n:9 transform:8 random_shuffle:7 unique:7 search:7 rotate:6 remove_copy:5 max_element:5 remove_copy_if:4 copy_if:4 accumulate:3 upper_bound:3 merge:2 remove_if:2 mismatch:2 count_if:2 partition:1 stable_sort:1
+bengardner/uncrustify count:115 move:47 min:47 remove:30 max:10 find:7 swap:2
+danmar/cppcheck find:380 move:115 min:95 count:66 remove:57 replace:51 max:40 copy:32 equal:23 find_first_of:23 search:17 mismatch:14 includes:12 fill:10 transform:8 generate:7 sort:6 unique:6 for_each:5 reverse:5 merge:5 binary_search:3 accumulate:2 find_if:1 remove_if:1 max_element:1 swap:1
+unknownworlds/decoda move:96 find:96 search:50 max:36 remove:31 min:19 copy:13 sort:10 replace:8 count:5 equal:5 merge:1 unique:1 transform:1
+assimp/assimp fill:4 find:2 min:2 rotate:1 count:1 max:1 search:1 transform:1
+graphlab-code/graphlab count:332 max:145 min:106 transform:31 find:20 merge:14 copy:13 sort:9 move:6 unique:5 fill:4 search:4 accumulate:3 generate:3 max_element:3 swap:3 partition:2 shuffle:2 equal:2 remove:2 includes:1 min_element:1 find_first_of:1
+vgvassilev/cling for_each:12 find:12 search:3 move:2 generate:2 remove_if:1 max:1 remove:1
+supercollider/supercollider count:196 min:50 max:35 find:29 move:20 sort:13 includes:10 remove:8 copy:7 replace:4 equal:4 find_first_of:4 search:3 generate:2 upper_bound:2 transform:2 lower_bound:2 next_permutation:1 reverse:1 unique:1 swap:1
+shogun-toolbox/shogun max:255 min:220 count:47 sort:44 search:37 find:36 copy:33 fill:27 move:9 swap:9 remove:8 unique:6 partition:4 replace:4 mismatch:4 equal:3 max_element:3 transform:3 is_sorted:3 find_if:2 shuffle:1 reverse:1 nth_element:1 random_shuffle:1 equal_range:1 stable_sort:1 accumulate:1
+triAGENS/ArangoDB count:44 find:25 reverse:16 min:16 merge:12 move:8 max:7 remove:4 for_each:3 unique:3 mismatch:3 fill:2 equal:2 count_if:2 generate:2 copy:2 find_if:1 search:1
+uglide/RedisDesktopManager move:1 min:1 sort:1 remove:1
+cocaine/cocaine-core move:8 remove:7 sort:4 set_intersection:2 find:1 accumulate:1
+Aloshi/EmulationStation max:7 find:6 find_first_of:1 copy:1
+jlnr/gosu max:13 swap:9 min:6 replace:4 transform:4 fill:3 find:3 move:2 count:2 merge:2 remove:2 find_first_of:2 includes:1
+oclint/oclint copy:5 find:4 move:3 remove:3 remove_if:2 transform:2
+spring/spring max:211 min:209 find:169 count:75 move:72 search:27 swap:23 sort:22 remove:22 replace:20 find_first_of:11 transform:10 equal:9 copy:8 reverse:6 unique:6 fill:4 generate:4 lower_bound:3 rotate:2 includes:2 upper_bound:2 shuffle:1 find_if:1 random_shuffle:1 accumulate:1 remove_if:1
+thrust/thrust max:9 count:8 min:5 search:5 find:2 accumulate:1 sort:1 lower_bound:1
+elan/plex min:50 max:42 find:35 count:20 move:19 fill:17 swap:14 remove:13 copy:10 sort:9 transform:6 for_each:4 upper_bound:4 lower_bound:4 accumulate:2 generate:2 unique:1 lexicographical_compare:1 equal:1 search:1
+tqchen/xgboost max:1
+etotheipi/BitcoinArmory find:68 search:37 move:36 min:23 remove:22 sort:18 copy:16 count:12 max:10 unique:7 fill:5 replace:5 accumulate:3 reverse:2 upper_bound:2 lower_bound:2 mismatch:1 equal:1 swap:1
+madlib/madlib count:86 max:30 min:20 mismatch:14 unique:10 merge:5 max_element:3 fill:1 accumulate:1 equal:1 min_element:1 copy:1
+Yelp/MOE max:398 search:137 min:133 copy:88 generate:85 upper_bound:50 lower_bound:50 fill:25 count:16 move:14 unique:12 equal:12 swap:12 find:10 sort:10 remove:8 max_element:4 min_element:4 copy_backward:3 shuffle:2 reverse:2 for_each:1 partition:1 swap_ranges:1 iota:1 replace:1 none_of:1 includes:1 transform:1 any_of:1
+telegramdesktop/tdesktop copy:15 equal:10 move:9 min:7 remove:7 find:5 count:2 max:2 transform:2 fill:1 replace:1
+jubatus/jubatus find:9 move:6 max:6 remove:6 sort:2 count:2 min:2 lower_bound:1
+dolphin-emu/dolphin min:135 max:128 find:120 count:93 swap:89 move:74 copy:57 search:46 sort:37 fill:22 unique:18 shuffle:15 remove:15 replace:14 reverse:13 equal:9 generate:8 transform:6 merge:5 lower_bound:3 find_first_of:3 for_each:2 partition:2 fill_n:2 accumulate:1 copy_n:1 upper_bound:1 max_element:1
+SkyFireArchives/SkyFireEMU_old max:57 count:28 swap:27 move:15 find:13 remove:13 min:10 copy:10 reverse:3 unique:3 transform:3 replace:2 search:2 fill:1 lexicographical_compare:1 equal:1
+netease-youdao/hex find:7 min:4 move:3 max:2 transform:1
+CleverRaven/Cataclysm-DDA move:1370 max:1172 min:1016 count:754 find:447 rotate:343 remove:250 fill:180 sort:94 search:62 replace:60 copy:56 unique:48 transform:37 generate:32 equal:25 swap:20 merge:19 reverse:13 find_first_of:9 accumulate:5 includes:5 set_difference:5 search_n:4 lower_bound:4 shuffle:2 find_if:2 random_shuffle:2 stable_sort:1 mismatch:1 lexicographical_compare:1
+openscad/openscad move:15 max:12 find:11 remove:9 min:8 fill:5 reverse:4 sort:4 count:4 replace:4 copy:4 swap:3 merge:1 equal:1
+bulletphysics/bullet3 sort:34 max:25 min:22 copy:12 find:9 partition:6 any_of:3 swap:3 replace:2 max_element:2 set_symmetric_difference:1 fill:1 set_union:1 reverse:1 unique:1
+wavii/darner count:3 find:1 sort:1
+mcostalba/Stockfish move:334 search:134 count:81 min:71 max:47 find:14 remove:14 swap:11 sort:6 copy:5 merge:3 for_each:2 reverse:2 replace:2 stable_sort:2 generate:2 transform:2 fill:1 accumulate:1 lexicographical_compare:1 equal:1
+ValveSoftware/halflife count:114 max:42 move:39 min:39 merge:31 find:29 remove:25 generate:6 swap:6 search:5 fill:2 unique:2 shuffle:1 replace:1
+zdevito/terra fill:4 min:3
+SkyFireArchives/SkyFireEMU_406a max:57 count:54 swap:27 move:15 find:15 min:13 remove:13 copy:10 reverse:8 unique:3 transform:3 replace:2 search:2 fill:1 lexicographical_compare:1 equal:1
+Project-OSRM/osrm-backend min:26 max:12 find:4 move:2 count:2 unique:2 remove:2 sort:1 iota:1 inner_product:1 accumulate:1 generate:1 partial_sum:1
+MasteringOpenCV/code count:18 min:3 copy:2 sort:1
+zerotier/ZeroTierOne min:53 count:39 copy:24 max:19 find:16 move:15 sort:14 remove:8 generate:4 fill:3 reverse:3 replace:3 equal_range:1 merge:1 unique:1 includes:1 equal:1
+Hawstein/cracking-the-coding-interview max:23 min:18 sort:9 find:1
+user-none/Sigil count:23 max:23 find:22 min:18 includes:12 move:7 generate:5 remove:5 replace:4 find_first_of:4 equal:3 search:3 sort:2 upper_bound:2 lower_bound:2 unique:1 transform:1 copy:1
+etexteditor/e search:234 move:153 count:78 sort:38 find:34 copy:33 replace:32 remove:30 lower_bound:23 transform:20 swap:14 reverse:10 max:8 min:7 merge:3 inplace_merge:2 for_each:1 iter_swap:1
+PointCloudLibrary/pcl max:128 transform:79 min:75 copy:45 count:44 search:36 move:27 find:27 sort:20 remove:13 fill:11 generate:11 partition:7 accumulate:5 merge:4 fill_n:4 swap:3 reverse:2 equal:2 set_difference:2 rotate:1 generate_n:1
+SupSuper/OpenXcom search:356 find:155 min:132 move:118 count:98 max:61 generate:51 remove:45 fill:28 unique:23 rotate:22 replace:15 sort:14 transform:13 find_if:11 swap:10 equal:5 for_each:4 find_first_of:4 copy:4 shuffle:2 reverse:2 count_if:2 mismatch:1 includes:1
+eigengo/akka-patterns move:5 min:3 transform:1
+JACoders/OpenJK find:92 max:80 min:64 count:61 move:60 sort:32 copy:27 remove:10 equal_range:8 equal:8 search:8 generate:6 swap:6 push_heap:4 fill:3 transform:2 pop_heap:2 rotate:1 mismatch:1
+acaudwell/Logstalgia count:30 move:8 min:8 sort:7 remove:7 find:3 max:2
+PCSX2/pcsx2 find:62 count:44 move:41 min:39 sort:33 max:27 remove:22 merge:21 search:10 upper_bound:7 fill:6 replace:4 copy:4 reverse:3 generate:2 equal:2 lower_bound:2 accumulate:1 unique:1 includes:1
+bkaradzic/bgfx max:56 find:47 min:40 replace:21 count:9 swap:4 move:3 generate:3 sort:2 transform:2 fill:1 equal:1 search:1 remove:1
+fabianschuiki/OpenSkyscraper min:3 max:3
+miloyip/rapidjson move:34 remove:12 copy:12 equal:8
+joeferner/node-java find:7 count:5 search:5 replace:4
+kripken/ammo.js max:10 partition:6 min:6 find:2 swap:2 set_symmetric_difference:1 set_union:1
+AGWA/git-crypt count:12 min:11 move:7 remove:6 copy:3 find:2 generate:2 replace:1 includes:1 equal:1
+haxenme/nme fill:35 max:19 move:14 transform:13 min:11 search:8 copy:4 remove:3 swap:3 unique:2 generate:2 count:1 fill_n:1
+huceke/omxplayer min:9 move:6 max:4 count:2 find:1 generate:1 upper_bound:1 search:1 transform:1 any_of:1 remove:1 swap:1
+kylelutz/compute copy:110 generate:90 sort:73 min:67 count:29 partition:15 is_sorted:14 merge:9 transform:9 partial_sum:8 next_permutation:6 reverse:6 rotate:6 unique:6 prev_permutation:6 search:6 find:5 accumulate:5 inner_product:4 equal:4 set_symmetric_difference:3 rotate_copy:3 set_union:3 search_n:3 stable_partition:3 is_permutation:3 set_intersection:3 includes:3 find_end:3 partition_point:3 set_difference:3 move:2 nth_element:2 copy_n:2 max:2 remove:2 swap:2 fill:1 iota:1 lower_bound:1
+progschj/OpenGL-Examples count:14 min:7 generate:7 max:6 rotate:4 sort:3 fill:2 move:1 find:1 swap:1
+lightspark/lightspark find:95 count:73 min:41 max:36 move:27 fill:25 replace:13 search:12 transform:12 remove:12 unique:10 copy:8 equal:5 equal_range:4 lower_bound:4 remove_if:1 swap:1
+OpenImageIO/oiio count:71 max:64 min:61 swap:40 find:38 copy:32 search:16 sort:14 generate:9 equal:9 replace:8 move:7 remove:7 fill:6 unique:4 stable_sort:2 accumulate:2 reverse:1
+GraphChi/graphchi-cpp min:47 max:40 count:29 sort:13 move:7 copy:7 includes:6 remove:6 find:5 equal:5 reverse:3 merge:3 generate:2 partial_sort:1 shuffle:1 random_shuffle:1 set_intersection:1
+ispc/ispc min:379 max:143 count:101 generate:40 find:24 sort:23 equal:17 copy:15 move:11 replace:10 remove:10 shuffle:8 swap:6 unique:5 transform:5 fill:2 random_shuffle:2 merge:2 find_first_of:2 accumulate:1 mismatch:1 generate_n:1 includes:1 search:1
+weicao/cascadb count:79 find:21 max:16 swap:6 lower_bound:5 merge:3 sort:3 search:2 copy:2 min:1
+rainmeter/rainmeter find:37 min:16 count:6 replace:6 swap:5 move:4 find_first_of:4 max:3 reverse:2 copy:2 iota:1 search:1
+llvm-mirror/llvm min:2232 move:1090 count:798 find:720 shuffle:643 remove:500 replace:427 max:368 swap:302 copy:299 unique:242 sort:206 merge:204 generate:198 transform:187 equal:149 search:102 reverse:96 mismatch:52 fill:43 includes:27 rotate:26 lower_bound:23 stable_sort:14 count_if:14 upper_bound:13 accumulate:11 for_each:9 find_if:8 partition:6 find_first_of:5 minmax:5 copy_if:4 random_shuffle:3 max_element:3 binary_search:2 none_of:2 remove_if:2 is_sorted:2 set_union:1 swap_ranges:1 copy_backward:1 set_difference:1
+libRocket/libRocket move:86 find:66 sort:22 count:18 copy:13 remove:11 generate:8 max:7 replace:6 min:5 search:4 fill:3 for_each:2 stable_sort:2 includes:2 swap:2 shuffle:1 set_difference:1
+vslavik/poedit count:1255 copy:888 max:779 min:772 find:604 move:573 equal:564 sort:475 for_each:388 remove:328 swap:324 reverse:283 search:262 transform:233 generate:226 fill:218 replace:215 unique:187 max_element:123 partition:107 merge:95 accumulate:76 shuffle:75 mismatch:73 min_element:73 copy_if:66 find_first_of:62 lower_bound:58 rotate:54 find_if:53 find_end:53 upper_bound:52 fill_n:52 minmax:49 includes:47 replace_copy:46 inner_product:46 random_shuffle:45 remove_copy:45 lexicographical_compare:45 count_if:45 is_sorted:45 partial_sort:42 search_n:42 adjacent_find:37 remove_if:37 equal_range:34 nth_element:32 set_difference:31 next_permutation:30 set_symmetric_difference:29 binary_search:29 set_union:29 stable_sort:29 set_intersection:29 prev_permutation:29 make_heap:25 swap_ranges:24 replace_copy_if:24 remove_copy_if:24 replace_if:22 copy_n:21 inplace_merge:20 stable_partition:19 rotate_copy:18 iota:18 is_sorted_until:18 reverse_copy:17 push_heap:15 copy_backward:14 sort_heap:13 pop_heap:13 generate_n:12 minmax_element:12 partial_sum:11 adjacent_difference:9 iter_swap:6 all_of:5 partial_sort_copy:4 none_of:3
+citra-emu/citra find:43 copy:35 count:32 rotate:28 move:25 min:25 remove:15 max:10 fill:5 find_if:5 unique:5 replace:4 search:4 transform:3 swap:3 for_each:1 partition:1 sort:1 accumulate:1 equal:1
+scummvm/scummvm find:44 sort:15 replace:12 move:11 generate:9 remove:7 transform:4 count:3 min:2 find_first_of:2 copy:2 fill:1 remove_if:1 includes:1 search:1
+Tokutek/mongo move:131 min:122 max:114 copy:63 remove:56 find:52 sort:45 count:27 equal:7 replace:5 find_first_of:4 search:3 fill:2 transform:2 lower_bound:2 swap:2 shuffle:1 random_shuffle:1 generate:1 includes:1 upper_bound:1
+OpenMW/openmw find:169 search:85 move:76 max:58 min:51 count:40 remove:39 copy:25 sort:17 replace:10 binary_search:6 unique:6 generate:6 transform:6 fill:5 merge:4 for_each:3 mismatch:3 reverse:2 includes:2 equal:2 swap:2 shuffle:1 rotate:1 remove_if:1 set_difference:1 lower_bound:1
+0ad/0ad min:107 max:107 transform:88 move:54 count:51 find:31 swap:31 copy:19 sort:16 remove:14 generate:10 search:10 equal:9 rotate:8 accumulate:8 replace:6 for_each:5 fill:3 reverse:3 unique:3 merge:2 binary_search:1 shuffle:1 find_if:1 random_shuffle:1 stable_sort:1 remove_if:1 includes:1
+clementine-player/Clementine count:189 move:123 search:60 remove:54 min:51 shuffle:32 find:32 sort:19 unique:16 copy:11 max:10 transform:9 replace:8 reverse:7 swap:7 upper_bound:4 lower_bound:4 search_n:3 random_shuffle:3 fill:2 merge:2 equal:2 stable_sort:1 accumulate:1 count_if:1
+yinqiwen/ardb sort:27 max:18 fill:17 count:15 find:14 min:13 includes:5 search:5 lower_bound:5 move:3 reverse:3 replace:2
+RuntimeCompiledCPlusPlus/RuntimeCompiledCPlusPlus move:122 find:84 count:58 sort:22 min:22 max:20 remove:16 copy:15 replace:9 generate:9 search:6 includes:5 equal_range:4 equal:4 swap:4 for_each:2 stable_sort:2 fill:1 shuffle:1 set_difference:1
+wxWidgets/wxWidgets move:38 swap:23 sort:21 min:18 transform:16 max:15 remove:14 count:11 fill:5 search:5 copy:3 reverse:2 find:2 equal:2 unique:1 includes:1
+freelan-developers/freelan-all find:9 count:5 iota:4 find_if:2 find_first_of:2 for_each:1 move:1 swap:1
+facebook/fbthrift move:44 max:35 unique:25 min:23 copy:14 transform:13 find:8 remove:7 count:3 fill:1 shuffle:1 reverse:1 random_shuffle:1 sort:1 replace:1 merge:1 generate:1
+baldurk/renderdoc find:10 sort:10 min:5 copy:5 count:3 fill:2 replace:2 reverse:1 merge:1 unique:1
+nolanbrown/Tesseract-iPhone-Demo count:11 reverse:8 copy:3 fill:2 unique:2 move:1 find:1 remove:1
+reverbrain/elliptics find:86 count:73 move:45 unique:34 remove:31 sort:29 transform:26 copy:25 merge:20 equal:7 fill:4 min:4 max:4 shuffle:3 random_shuffle:3 generate:3 lower_bound:2 find_first_of:2 swap:1
+wisk/medusa move:8 find:6 remove_if:2 remove:2 fill:1 sort:1 min:1 replace:1 unique:1 any_of:1
+FellowTraveler/Open-Transactions-old count:163 find:119 move:97 remove:37 generate:37 copy:35 min:33 swap:13 replace:11 search:8 max:6 sort:2 equal:2 fill:1 find_if:1 reverse:1 unique:1 mismatch:1
+jckarter/clay count:12 max:7 swap:2 min:1
+appcelerator/titanium_desktop copy:4 find:1
+doxygen/doxygen replace:13 find:10 search:10 fill:4 sort:4 find_first_of:2 includes:2 count:1 transform:1
+horde3d/Horde3D find:9 swap:9 count:7 move:6 sort:6 search:4 transform:4 remove:3 min:2 max:2 replace:1 remove_if:1 generate:1
+taglib/taglib count:27 min:16 find:14 move:9 swap:9 remove:6 replace:4 reverse:2 max:1 search:1
+fador/mineserver move:64 min:55 remove:44 count:41 max:18 generate:12 find:7 find_if:3 remove_if:3 replace:2 fill:1 reverse:1 sort:1 unique:1 search:1 transform:1 copy:1
+webcoyote/coho find:7 count:5 copy:3 for_each:2 min:2 move:1 merge:1 search:1
+bloomberg/bde swap:705 find:633 copy:571 equal:453 count:406 max:324 replace:261 move:250 reverse:243 min:230 unique:140 remove:135 lower_bound:109 upper_bound:98 sort:91 search:89 equal_range:83 merge:43 find_first_of:39 rotate:26 generate:22 shuffle:19 includes:16 next_permutation:14 random_shuffle:12 fill:10 remove_if:9 count_if:5 partial_sort:2 max_element:2 partition:1 adjacent_find:1
+wesnoth/wesnoth move:618 find:375 max:311 min:258 count:186 remove:120 sort:104 copy:62 search:39 find_if:38 merge:32 reverse:24 fill:21 replace:17 swap:14 transform:13 accumulate:12 equal:12 generate:11 rotate:8 search_n:7 for_each:4 equal_range:4 lower_bound:4 next_permutation:3 remove_if:3 unique:3 find_first_of:2 partial_sort:1 stable_sort:1 lexicographical_compare:1 push_heap:1 minmax:1 min_element:1 pop_heap:1 fill_n:1
+zeromq/zeromq2-x min:42 count:34 swap:28 max:18 copy:8 find:6 move:5 fill:3 generate:2 find_end:2 remove:2 remove_if:1
+stan-dev/stan min:6 sort:6 max:6 find:4 copy:2 lexicographical_compare:1
+scanlime/zenphoton count:3 search:1 transform:1 lower_bound:1 generate:1
+akrennmair/newsbeuter count:96 sort:83 search:47 reverse:31 find:30 replace:25 move:18 remove:17 max:15 fill:11 min:11 stable_sort:11 find_first_of:7 generate:6 swap:6 equal:5 transform:5 partition:3 copy:2 iota:1 unique:1
+christopho/solarus min:14 max:14 move:7 find:6 unique:6 remove:6 fill:3 copy:3 generate:1 equal:1
+sudar/Yahoo_LDA count:41 min:20 max:10 find:7 move:2 replace:2 unique:2 equal:2 remove:2 find_first_of:2 mismatch:1 generate:1 copy:1
+TooTallNate/node-lame fill:6 min:3 count:2 sort:2 move:1 find:1 remove:1 generate:1
+pioneerspacesim/pioneer max:105 min:94 move:79 find:51 count:36 search:26 remove:20 generate:13 unique:12 fill:11 sort:10 merge:9 copy:9 replace:6 equal:4 transform:4 reverse:3 rotate:3 remove_if:2 shuffle:1 random_shuffle:1 upper_bound:1 lower_bound:1 find_first_of:1 swap:1
+DrWhax/truecrypt-archive min:8 count:4 max:4 search:4
+Kitware/VTK equal:7 find:6 count:4 min:4 accumulate:3 merge:1 generate:1 copy:1
+DFHack/dfhack find:307 count:288 min:238 max:209 sort:80 move:79 search:58 copy:42 remove:36 fill:15 equal:8 generate:6 reverse:5 merge:5 transform:5 for_each:2 unique:2 swap:2 includes:1
+tvdzwan/hyperion min:23 max:17 includes:6 count:5 find:3 unique:3 sort:2 move:1 transform:1 min_element:1 remove:1 copy:1
+wdas/ptex count:27 copy:25 min:14 generate:8 max:6 fill:5 sort:4 find:3 stable_sort:2 unique:2 reverse:1 accumulate:1 swap:1
+open-source-parsers/jsoncpp move:2 find:2 remove:2 sort:1
+MaddTheSane/perian find:2 lower_bound:2
+s3fs-fuse/s3fs-fuse sort:69 copy:67 find:60 max:39 move:32 count:32 remove:30 fill:15 find_first_of:11 min:4 search:4 transform:3 replace:2 equal:2
+crossroads-io/libxs min:29 max:19 move:7 find:4 generate:3 count:2 find_end:2 remove:2 remove_if:1 unique:1
+winlinvip/simple-rtmp-server max:47 copy:47 move:40 remove:37 count:29 equal:22 merge:13 find:10 min:10 replace:5 fill:4 generate:4 swap:2 unique:1 search:1
+mscdex/node-mariasql swap:50 count:4 move:3 rotate:3 min:3 remove:3 reverse:2 find:2
+udoprog/c10t max:9 min:5 reverse:3
+ChaiScript/ChaiScript max:3
+HeliumProject/Helium count:52 transform:41 move:37 find:36 sort:12 search:10 remove:8 min:4 copy:4 unique:3 generate:2 max:1
+LMMS/lmms move:92 min:36 remove:26 find:19 max:15 copy:15 swap:12 fill:8 sort:5 count:4 transform:4 generate:3 unique:1 mismatch:1 includes:1 equal:1
+google/skia max:75 min:64 swap:9 fill:5 move:5 transform:3 count:2 find:1 replace:1 sort:1 equal:1
+facebook/fatal count:27 sort:8 binary_search:2 find:2 search:2
+jeremyong/Selene for_each:1 find:1 equal:1
+chriskohlhoff/asio count:32 min:31 sort:13 for_each:5 swap:4 equal:3 shuffle:2 iota:2 merge:2 inplace_merge:2 max:2 move:1
+matus-chochlik/oglplus unique:20 count:10 max:6 sort:4 min:4 copy:4
+ddemidov/vexcl sort:45 copy:9 max:7 count:5 stable_sort:5 equal:5 min:4 iota:2 generate:2 partial_sum:2 is_sorted:2 rotate:1 inner_product:1 accumulate:1 unique:1 upper_bound:1 lower_bound:1
+highfidelity/hifi min:65 max:61 find:26 move:24 sort:20 count:17 remove:10 copy:9 accumulate:6 transform:4 rotate:3 merge:1 equal:1 swap:1
+openMVG/openMVG find:77 min:69 move:55 max:46 remove:34 fill:24 count:20 copy:19 sort:16 fill_n:8 transform:7 max_element:5 accumulate:3 unique:3 set_intersection:2 equal:2 replace:1 includes:1 search:1 set_difference:1
+moses-smt/mosesdecoder min:374 count:309 max:277 find:202 search:150 sort:102 move:83 copy:64 remove:44 replace:29 swap:27 mismatch:21 shuffle:19 equal:19 fill:13 merge:13 transform:13 unique:11 generate:11 accumulate:10 inner_product:6 find_first_of:6 set_intersection:5 reverse:3 random_shuffle:3 nth_element:2 remove_if:2 min_element:2 any_of:2 for_each:1 partial_sort:1 partition:1 binary_search:1 equal_range:1 set_difference:1 is_sorted:1
+llvm-mirror/clang min:440 find:379 move:309 copy:184 merge:155 count:132 unique:127 remove:126 sort:75 mismatch:73 replace:71 generate:68 max:64 search:54 reverse:53 swap:35 equal:28 fill:26 includes:24 transform:24 shuffle:11 find_if:7 upper_bound:7 lower_bound:6 stable_sort:5 remove_if:5 find_first_of:3 partition:1 all_of:1 copy_backward:1 equal_range:1 stable_partition:1 accumulate:1 any_of:1
+mosra/magnum move:15 unique:13 copy:9 transform:7 min:5 minmax:4 max:4 sort:3 count:2 swap:2 iota:1 merge:1 equal:1 max_element:1 minmax_element:1 remove:1
+zeromq/zeromq3-x min:125 count:111 max:43 move:15 copy:11 find:3 equal_range:2 equal:2 find_end:2 remove:2 remove_if:1 generate:1
+wang-bin/QtAV count:32 copy:20 min:16 sort:12 swap:6 find:5 move:3 search:3 max:2 remove:2
+simsong/tcpflow count:30 min:5 reverse:4 sort:4 max:3 partial_sort:2 transform:2 copy:2 fill:1 find:1 find_first_of:1
+p3/regal count:4422 max:551 min:485 transform:138 fill:60 move:18 swap:15 find:13 copy:12 reverse:1 accumulate:1 remove:1
+ethereum/cpp-ethereum min:11 search:9 find:4 count:4 reverse:1 equal:1 transform:1
+imageworks/OpenShadingLanguage find:16 move:15 remove:10 min:6 swap:5 mismatch:4 max:4 sort:2 merge:2 copy:2 unique:1
+stellar/stellard count:15 min:11 equal:7 swap:5 move:4 for_each:3 copy:3 max:2 remove:2 fill:1 reverse:1 sort:1
+mapbox/mapbox-gl-native max:48 find:47 min:45 transform:41 move:33 replace:31 unique:30 fill:19 sort:12 count:12 remove:11 swap:11 rotate:9 merge:9 generate:9 copy:8 reverse:5 includes:2 for_each:1 mismatch:1 find_first_of:1 equal:1
+wheybags/freeablo fill:22 max:13 move:8 min:8 generate:6 find:4 remove:2
+mfontanini/libtins find:55 copy:43 equal:42 search:30 count:17 min:14 max:10 iota:4 replace:4 fill:2 move:1 remove:1
+firebreath/FireBreath copy:6 move:4 remove:4 for_each:3 find:2 unique:2 find_if:1
+phoboslab/JavaScriptCore-iOS min:126 count:75 max:67 move:40 find:22 equal:10 copy:8 sort:7 merge:7 search:6 remove:4 fill:1 reverse:1 replace:1 mismatch:1 generate:1 swap:1
+kristjankorjus/Replicating-DeepMind shuffle:1 random_shuffle:1
+KhronosGroup/OpenCOLLADA copy:55 find:47 max:34 equal:23 move:19 count:18 remove:18 min:13 generate:9 unique:4 search:4 transform:3 fill:1 reverse:1 replace:1 merge:1
+hpcc-systems/HPCC-Platform max:443 count:329 min:282 move:216 remove:188 copy:163 find:143 sort:119 partition:105 generate:95 transform:82 replace:74 swap:63 equal:52 fill:37 merge:28 search:25 mismatch:9 includes:9 unique:7 shuffle:3 find_if:3 reverse:2 upper_bound:1 lower_bound:1
+scanlime/fadecandy min:27 count:11 max:5 copy:5 move:2 fill:1 find:1 remove:1 swap:1
+Arkania/ArkCORE max:57 count:28 swap:27 move:15 find:13 remove:13 min:10 copy:10 reverse:3 unique:3 transform:3 replace:2 search:2 fill:1 lexicographical_compare:1 equal:1
+eranif/codelite find:805 move:452 min:311 max:255 remove:199 count:173 replace:150 search:84 sort:77 copy:66 unique:42 includes:27 find_first_of:26 equal:25 fill:23 swap:20 find_if:16 mismatch:14 merge:13 reverse:12 for_each:9 generate:9 transform:9 set_symmetric_difference:2 accumulate:2 binary_search:1 set_union:1 rotate:1 equal_range:1 remove_if:1 max_element:1 set_difference:1 lower_bound:1
+colobot/colobot sort:11 find:10 move:4 min:3 fill:2 max:2 equal:1 remove:1 copy:1
+cebix/macemu count:80 copy:76 min:72 max:36 find:24 move:16 remove:6 sort:5 reverse:4 merge:3 swap:3 fill:2 includes:2 equal:2
+openscenegraph/osg move:422 max:351 remove:298 min:289 find:282 transform:261 copy:199 merge:143 count:142 sort:120 swap:100 unique:45 replace:40 generate:39 reverse:29 equal:21 rotate:19 search:17 for_each:16 fill:10 max_element:4 copy_backward:2 accumulate:2 reverse_copy:2 includes:2 find_first_of:2 find_if:1 lower_bound:1
+nasa/World-Wind-Java min:28 for_each:25 find:24 max:16 copy:6 move:5 transform:5 sort:3 count:3 remove:3 find_if:2 generate:2 max_element:2 min_element:2 rotate:1 replace:1 equal:1 search:1 lower_bound:1
+cms-sw/cmssw min:651 count:119 copy:73 find:54 sort:44 move:34 max:34 fill:30 replace:24 swap:21 for_each:15 unique:15 shuffle:9 transform:7 equal:6 random_shuffle:4 remove:3 equal_range:2 accumulate:2 search:2 is_sorted:2 partial_sort:1 binary_search:1 remove_if:1 partial_sort_copy:1 partial_sum:1 max_element:1 min_element:1 lower_bound:1 find_first_of:1
+lballabio/quantlib count:119 max:42 min:40 find:27 copy:20 equal:18 sort:15 move:13 accumulate:12 remove:8 replace:7 fill:5 merge:5 upper_bound:5 inner_product:4 unique:3 transform:3 partition:2 generate:2 max_element:2 min_element:2 lower_bound:2 partial_sort:1 binary_search:1 find_if:1 mismatch:1 partial_sort_copy:1 search:1 find_first_of:1 swap:1
+synergy/synergy max:26 min:23 find:20 count:18 generate:18 move:9 copy:9 replace:6 remove:5 equal:3 fill:2 set_difference:2 replace_if:2 equal_range:1 lexicographical_compare:1 swap:1
+HIT-SCIR/ltp max:28 sort:5 accumulate:3 find:2 count:2 min:2 max_element:2 swap:2 shuffle:1 random_shuffle:1 equal:1 find_first_of:1 copy:1
+clMathLibraries/clFFT max:32 generate:17 transform:5 min:2 count:1
+eerolanguage/clang min:387 find:292 move:228 copy:171 count:120 merge:112 remove:91 sort:66 mismatch:64 replace:60 max:56 unique:47 search:47 reverse:44 generate:31 fill:24 includes:22 equal:22 transform:21 swap:19 upper_bound:7 lower_bound:6 stable_sort:4 find_first_of:3 find_if:1 all_of:1 copy_backward:1 equal_range:1
+gwaldron/osgearth max:382 min:361 transform:173 find:81 sort:74 copy:50 move:37 merge:33 count:31 remove:31 replace:15 minmax:15 swap:14 unique:11 reverse:9 rotate:8 fill:7 generate:4 max_element:4 min_element:4 equal:3 for_each:2 find_if:1 search:1
+facebook/mysql-5.6 swap:50 count:14 equal:13 move:6 min:5 mismatch:5 rotate:3 find:3 sort:3 remove:3 reverse:2 max:2 includes:1 copy:1
+snes9xgit/snes9x min:34 move:30 swap:10 max:8 fill:6 count:5 find:4 copy:4 accumulate:1 mismatch:1 lower_bound:1
+alibaba/tfs count:204 max:71 min:36 move:31 copy:25 remove:21 find:19 merge:15 sort:11 replace:10 shuffle:9 rotate:7 random_shuffle:5 generate:5 copy_n:4 find_first_of:4 fill:2 find_if:1 reverse:1 equal:1 swap:1
+hadley/bigvis count:19 upper_bound:3 nth_element:2 equal:2 find:1 lower_bound:1
+Nevcairiel/LAVFilters move:16 find:15 replace:5 search:4 count:3 remove:3 min:2 find_first_of:2 fill:1 transform:1
+treefrogframework/treefrog-framework swap:3 count:2 min:2 fill:1 reverse:1 equal:1 copy:1
+wdas/brdf min:15 max:11 copy:5 generate:4 fill:3 sort:3 stable_sort:2
+mozy/mordor find:49 copy:31 min:28 equal:18 count:10 replace:9 max:9 move:5 transform:4 find_first_of:4 remove:3 merge:1 lower_bound:1
+zonyitoo/doubanfm-qt sort:2
+Warzone2100/warzone2100 max:266 search:221 move:203 min:177 find:89 count:66 remove:63 sort:51 swap:48 fill:17 generate:10 lower_bound:7 copy:7 rotate:6 equal:6 reverse:5 for_each:4 merge:3 stable_sort:2 remove_if:2 unique:2 transform:2 find_if:1 replace:1 make_heap:1 push_heap:1 upper_bound:1 set_difference:1 pop_heap:1 fill_n:1
+chenshuo/recipes count:30 swap:4 for_each:1
+csmith-project/creduce move:73 remove:20 find:11 count:8 transform:6 replace:2 min:1
+libmv/libmv search:15 count:5 find:2 sort:2 max:2
+xoreos/xoreos min:5 find:4 count:2 equal:2 sort:1
+simbody/simbody min:160 max:145 find:123 generate:50 copy:41 transform:36 move:27 fill:24 sort:21 count:16 search:15 swap:15 unique:13 rotate:12 reverse:10 equal:6 partition:5 replace:4 includes:4 accumulate:3 remove:3 upper_bound:2 find_first_of:1
+mtytel/cursynth min:33 max:13 find:10 swap:10 fill:4 move:2 equal:2 count:1 sort:1 remove:1 generate:1 copy:1
+Amanieu/asyncplusplus move:8 min:3 remove:3 shuffle:2 count:1 iota:1 unique:1
+GoldenCheetah/GoldenCheetah max:239 count:170 min:125 move:43 fill:37 remove:37 replace:8 lower_bound:7 sort:6 search:6 find:5 generate:2 reverse:1 merge:1 equal:1 upper_bound:1
+mysql/mysql-server swap:50 count:4 move:3 rotate:3 min:3 remove:3 reverse:2 find:2
+imageworks/OpenColorIO max:169 min:79 transform:59 find:47 reverse:24 fill:20 replace:10 count:6 generate:6 move:5 equal:5 swap:5 partition:4 remove:4 copy:3 lower_bound:2
+pgRouting/pgrouting find:14 move:12 max:3 for_each:2
+mikejs/gridfs-fuse find:14 min:6 fill:5 move:2 remove:2 max:1
+aszxqw/cppjieba max:1
+openexr/openexr min:903 max:786 fill:151 count:135 copy:115 find:91 transform:54 swap:47 sort:29 move:24 generate:17 remove:17 accumulate:16 equal:16 rotate:13 mismatch:8 unique:4 next_permutation:2 replace:2 pop_heap:2 reverse:1 make_heap:1 push_heap:1 search:1
+zhanlangsir/Qtqq find:7 min:7 count:4 fill:3 sort:2 max:1 copy:1
+aras-p/hlsl2glslfork copy:18 move:8 find:8 min:7 sort:7 remove:6 count:5 unique:4 reverse:2 generate:1 max:1 search:1
+draperlaboratory/fracture find:28 count:13 sort:6 unique:6 move:4 min:4 swap:4 search:2 generate:2 reverse:1 replace:1 merge:1
+OpenKinect/libfreenect2 max:7 min:5 move:4 remove:4 fill:3 find:2 copy:1 swap:1
+Smoothieware/Smoothieware copy:23 move:20 min:14 count:9 find:8 max:8 replace:3 minmax:3 remove:2 remove_if:1
+arcemu/arcemu find:4 min:3 transform:3 sort:2 generate:2 move:1 reverse:1 replace:1 remove:1 copy:1
+sbooth/SFBAudioEngine min:40 unique:37 move:33 max:17 copy:10 count:6 swap:3 fill:1 find:1 replace:1 equal:1 remove:1
+imvu-open/istatd count:111 equal:45 find:37 max:32 min:24 move:9 find_first_of:9 remove:7 replace:5 transform:4 fill:3 sort:3 find_if:2 copy:2 reverse:1 equal_range:1 merge:1 remove_if:1 count_if:1 search:1 swap:1
+openalpr/openalpr count:13 rotate:3 min:3 sort:2 inner_product:1 accumulate:1 transform:1 copy:1
+TortoiseGit/TortoiseGit min:71 max:63 merge:32 count:28 reverse:26 sort:23 find:18 copy:17 partition:15 move:15 swap:11 transform:10 nth_element:4 remove:4 find_if:3 replace:3 accumulate:3 fill:2 stable_sort:2 unique:1 lower_bound:1
+STEllAR-GROUP/hpx count:518 min:344 find:85 move:46 copy:42 max:35 remove:26 sort:23 for_each:15 accumulate:12 fill:11 generate:10 unique:9 replace:8 partition:6 merge:5 transform:5 reverse:4 lower_bound:3 equal:2 upper_bound:2 shuffle:1 random_shuffle:1 remove_copy:1 swap:1
+Unvanquished/Unvanquished move:85 find:70 sort:22 count:19 copy:13 generate:11 remove:11 min:9 search:8 replace:6 fill:3 max:3 for_each:2 stable_sort:2 unique:2 includes:2 swap:2 shuffle:1 reverse:1 set_difference:1
+raymondlu/super-animation-samples move:450 remove:343 find:207 transform:179 max:143 min:90 sort:76 count:54 copy:43 equal:36 rotate:35 swap:30 search:27 fill:9 replace:9 find_first_of:6 find_if:4 reverse:2 remove_copy:2 generate:2
+llvm-dcpu16/llvm-dcpu16 min:1606 move:876 find:502 count:498 remove:410 replace:316 max:215 copy:207 sort:143 swap:137 merge:136 transform:133 generate:112 equal:94 shuffle:69 unique:67 search:53 mismatch:37 reverse:35 fill:30 for_each:19 rotate:19 includes:18 lower_bound:18 upper_bound:16 equal_range:14 stable_sort:9 accumulate:4 find_first_of:4 partition:2 binary_search:2 random_shuffle:2 set_difference:2 find_if:1 swap_ranges:1 copy_backward:1 remove_if:1
+AlloyTeam/webtop min:2 find:1
+uzh-rpg/rpg_svo count:18 min:17 max:16 move:6 remove:6 for_each:5 find:4 nth_element:3 sort:2 search:2 copy:2 shuffle:1 random_shuffle:1 unique:1
+geometer/FBReader max:158 find:131 min:119 move:83 count:49 remove:42 sort:30 fill:25 rotate:15 search:15 equal:11 replace:10 copy:9 lower_bound:8 find_if:6 upper_bound:4 swap:3 reverse:2 generate:2 max_element:1 find_first_of:1
+Atarity/Lightpack max:19 min:13 count:6 fill:1 fill_n:1
+Jackarain/avplayer find:370 min:331 count:297 max:277 move:151 remove:91 swap:91 reverse:77 equal:63 replace:57 copy:54 sort:48 find_if:35 fill:28 generate:18 shuffle:17 for_each:10 min_element:10 iter_swap:9 lower_bound:9 fill_n:9 random_shuffle:8 unique:7 mismatch:7 search:7 transform:7 rotate:6 merge:6 remove_copy:5 max_element:5 remove_copy_if:4 upper_bound:4 copy_if:4 accumulate:3 equal_range:2 remove_if:2 count_if:2 partition:1 stable_sort:1
+trailofbits/mcsema min:2345 count:1593 move:1329 find:1058 copy:923 max:805 remove:712 equal:581 replace:559 sort:547 swap:443 transform:355 for_each:328 search:327 generate:316 reverse:273 merge:245 unique:241 fill:205 shuffle:152 mismatch:109 max_element:109 partition:107 lower_bound:75 min_element:71 upper_bound:66 includes:63 rotate:62 find_first_of:62 copy_if:54 find_end:53 equal_range:51 accumulate:49 inner_product:48 fill_n:47 replace_copy:46 find_if:46 random_shuffle:46 remove_copy:45 lexicographical_compare:45 minmax:45 is_sorted:45 partial_sort:42 search_n:42 count_if:41 adjacent_find:37 stable_sort:37 next_permutation:36 prev_permutation:35 nth_element:32 set_difference:32 binary_search:31 remove_if:31 set_union:30 set_symmetric_difference:29 set_intersection:29 make_heap:27 swap_ranges:25 replace_copy_if:24 remove_copy_if:24 replace_if:22 inplace_merge:21 stable_partition:19 push_heap:19 rotate_copy:18 is_sorted_until:18 copy_n:17 reverse_copy:17 partial_sum:15 sort_heap:15 pop_heap:15 copy_backward:14 adjacent_difference:13 iota:12 minmax_element:12 generate_n:11 iter_swap:6 partial_sort_copy:4 all_of:3
+po-devs/pokemon-online move:317 remove:104 min:61 count:56 max:39 find:22 sort:14 copy:13 swap:11 shuffle:10 unique:10 transform:7 generate:5 equal:3 fill:2 reverse:1 random_shuffle:1 replace:1
+TonicAudio/Tonic min:33 max:13 swap:10 fill:4 equal:2 move:1 find:1 count:1 sort:1 generate:1 copy:1
+pezmaster31/bamtools count:67 sort:45 min:44 merge:41 find:37 max:32 copy:17 generate:15 move:14 remove:11 reverse:8 unique:6 swap:6 search:5 mismatch:4 equal:4 nth_element:2 stable_sort:2 fill:1 replace:1 accumulate:1 fill_n:1
+google/VoltAir min:15 max:11 move:6 remove:5 fill:2 find:2 merge:2 sort:1 stable_sort:1
+BloodAxe/opencv-ios-template-project find:4 sort:4 copy:2 lexicographical_compare:1
+apavlo/h-store sort:15 partition:6 find:5 max:5 count:3 copy:2 move:1 generate:1 lexicographical_compare:1 lower_bound:1
+MetaScale/nt2 max:19 swap:19 transform:16 copy:15 find:10 sort:10 count:8 min:8 accumulate:6 includes:6 generate:6 iota:4 lexicographical_compare:2 for_each:1 fill:1 next_permutation:1 replace:1
+MultiMC/MultiMC5 move:12 remove:9 min:4 shuffle:2 replace:2 copy:2
+openstreetmap/osm2pgsql count:10 min:8 move:5 remove:4 find:3 max:3 copy:3 search:2
+lastfm/Fingerprinter count:13 find:4 max:2 min:1 replace:1 transform:1
+SOCI/soci find:9 count:2 transform:1
+chukong/CocoStudioSamples move:174 remove:139 find:76 transform:63 max:54 min:45 sort:34 rotate:19 count:14 equal:13 copy:13 swap:13 search:5 replace:3 find_if:2 find_first_of:2 reverse:1 remove_copy:1 generate:1
+nfomon/shok find:4 min:1 merge:1 copy:1
+equalpants/pigmap count:28 min:19 max:15 find:12 copy:7 sort:6 replace:6 swap:3 move:2 partition:1 reverse:1 mismatch:1 includes:1
+fifengine/fifengine includes:51 sort:28 find:27 search:22 max:21 move:17 remove:13 fill:6 count:2 min:2 find_if:1 reverse:1 replace:1 any_of:1 copy:1
+micknoise/Maximilian min:33 max:13 swap:10 fill:4 equal:2 move:1 find:1 count:1 sort:1 copy:1
+sakra/cotire copy:1
+boostcon/cppnow_presentations_2012 copy:24 count:10 move:9 unique:1
+cruppstahl/hamsterdb find:58 count:57 fill:11 shuffle:7 random_shuffle:7 move:5 reverse:5 search:3 merge:2 min:1
+visionworkbench/visionworkbench reverse:8 min:8 max:7 lower_bound:2 upper_bound:1
+unknownworlds/NS copy:1890 count:590 equal:570 sort:530 find:460 max:345 min:340 iota:300 merge:270 fill:260 search:170 replace:150 transform:150 partition:140 find_if:140 stable_sort:120 inplace_merge:120 includes:120 reverse:100 rotate:100 unique:100 mismatch:100 move:90 remove:90 generate:80 fill_n:80 swap:80 partial_sort:70 stable_partition:70 adjacent_find:50 inner_product:40 accumulate:40 make_heap:40 set_difference:40 set_symmetric_difference:30 shuffle:30 set_union:30 next_permutation:30 nth_element:30 random_shuffle:30 equal_range:30 remove_if:30 set_intersection:30 prev_permutation:30 partial_sort_copy:30 partial_sum:30 count_if:30 adjacent_difference:30 replace_if:30 for_each:20 binary_search:20 rotate_copy:20 replace_copy:20 copy_backward:20 iter_swap:20 remove_copy:20 lexicographical_compare:20 generate_n:20 push_heap:20 upper_bound:20 sort_heap:20 max_element:20 min_element:20 pop_heap:20 lower_bound:20 copy_if:20 swap_ranges:10 replace_copy_if:10 reverse_copy:10 remove_copy_if:10
+tux3/qTox max:2 move:1 reverse:1
+TriumphLLC/Blend4Web max:10 find:8 partition:6 min:6 move:3 remove:3 fill:2 swap:2 set_symmetric_difference:1 set_union:1
+cameron314/readerwriterqueue count:24 move:9 accumulate:9 remove:9 max:8 min:3 sort:3 fill:2
+PeterTh/gedosato any_of:3 min:1 equal:1 max:1
+sunpinyin/sunpinyin swap:54 count:51 find:45 max:24 sort:18 min:16 merge:13 move:12 reverse:11 remove:11 search:9 copy:7 make_heap:4 sort_heap:4 generate:3 for_each:2 binary_search:2 transform:2 pop_heap:2 lower_bound:2 replace:1 accumulate:1 equal:1 push_heap:1
+fenrus75/powertop find:35 sort:19 max:11 count:6 accumulate:4 equal:4 move:3 min:2 replace:1 merge:1
+corporateshark/WalCommander count:128 min:82 max:44 search:24 move:8 find:5 copy:5 sort:4 replace:3 equal:3 remove:1
+ShortTailLab/ph-open move:205 count:113 max:83 remove:83 transform:67 find:55 sort:50 min:37 copy:14 swap:13 fill:11 replace:11 shuffle:6 search:4 random_shuffle:3 merge:3 find_if:2 equal:2 find_first_of:2 reverse:1 accumulate:1 remove_if:1 lexicographical_compare:1 any_of:1
+watashi/AlgoSolution min:1257 max:822 fill:606 sort:401 count:274 swap:253 find:220 reverse:109 copy:91 move:72 lower_bound:71 max_element:53 unique:49 partial_sum:48 remove:42 upper_bound:41 accumulate:38 min_element:38 rotate:31 merge:31 transform:27 replace:24 shuffle:23 next_permutation:23 random_shuffle:13 search:12 partition:11 stable_partition:8 remove_if:8 equal:8 find_if:4 set_intersection:4 minmax:4 set_difference:4 binary_search:3 count_if:3 set_union:1 iota:1 equal_range:1 inner_product:1 inplace_merge:1 lexicographical_compare:1 prev_permutation:1
+alibaba/tair count:85 copy:30 move:15 remove:15 find:14 min:4 max:4 sort:3 set_difference:1 swap:1
+lastfm/libmoost equal:8 find:6 max:5 count:1 min:1 lower_bound:1
+splunk/pion min:6 max:4 count:2 sort:2 move:1 remove:1 copy:1
+forio/julia-studio move:480 count:436 generate:374 rotate:364 find:285 copy:197 min:181 remove:157 transform:152 max:123 search:98 equal:68 replace:46 unique:40 swap:31 sort:22 fill:16 reverse:8 mismatch:7 equal_range:6 lexicographical_compare:6 lower_bound:6 includes:5 find_if:4 for_each:3 binary_search:3 find_end:3 accumulate:2 remove_if:2 any_of:2
+ProjectSkyfire/SkyFire_5xx count:65 max:57 move:28 swap:28 find:15 min:15 remove:13 copy:10 reverse:7 unique:3 shuffle:2 search:2 transform:2 fill:1 random_shuffle:1 replace:1 lexicographical_compare:1 equal:1
+imageworks/Field3D generate:32 fill:29 min:27 max:20 count:8
+HSA-Libraries/Bolt equal:31 sort:27 merge:26 generate:26 transform:20 count:15 fill:13 min:8 max:5 search:5 copy:5 stable_sort:2 for_each:1 binary_search:1 max_element:1 min_element:1
+residualvm/residualvm find:38 sort:15 replace:12 move:11 generate:9 remove:7 transform:4 count:3 min:2 find_first_of:2 copy:2 fill:1 remove_if:1 includes:1 search:1
+psi-im/psi move:2 find:2 remove:2 pop_heap:1 make_heap:1 push_heap:1
+RC1140/cr-gpg move:30 remove:14 count:1 search:1
+lotem/librime max:2 copy:2 find:1 transform:1
+arx/ArxLibertatis max:338 min:311 find:300 count:259 move:219 copy:65 rotate:63 remove:49 fill:15 search:12 find_first_of:12 sort:10 replace:6 generate:6 transform:6 equal:4 reverse:3 unique:3 copy_backward:2 includes:1 any_of:1 lower_bound:1 fill_n:1 swap:1
+appleseedhq/appleseed count:569 min:313 max:252 transform:165 move:62 copy:51 find:44 search:40 remove:40 sort:29 partition:22 replace:16 swap:16 generate:15 fill:10 unique:9 copy_if:9 reverse:6 merge:6 accumulate:4 for_each:2 make_heap:2 upper_bound:1 max_element:1 any_of:1
+readium/readium-sdk min:2
+robbeofficial/KinectTouch sort:5 max:4 find:2 min:1
+count0/graph-tool find:7 count:7 search:7 equal:5 move:3 replace:1 remove:1 copy:1
+twitter/BreakoutDetection min:71 max:21 move:11 remove:6 find:4 nth_element:3 count:2 sort:2 copy:1
+nneonneo/2048-ai move:63 count:16 max:16 min:5 merge:5 find:3 reverse:2 equal:1
+KDAB/GammaRay move:54 remove:19 find:11 lower_bound:11 count:4 min:4 sort:3 for_each:1 find_if:1 replace:1 includes:1
+euroelessar/qutim count:119 move:17 remove:10 find:9 equal:4 sort:2 min:1 search:1 set_difference:1
+Valloric/ycmd find:25 count:21 max:16 min:14 includes:10 equal:9 move:6 remove:5 lower_bound:5 replace:4 find_first_of:4 search:4 swap:3 upper_bound:2 generate:2 copy:2 binary_search:1 fill:1 reverse:1 unique:1 lexicographical_compare:1 transform:1
+infinidb/infinidb partition:484 min:400 find:304 count:203 max:192 copy:137 swap:106 unique:88 move:56 sort:45 remove:30 fill:29 equal:23 replace:16 generate:13 for_each:10 merge:10 search:10 find_first_of:10 reverse:7 equal_range:6 transform:6 rotate:3 mismatch:2 includes:2 any_of:2 find_if:1
+dualface/cocos2d-x-extensions move:39 remove:18 min:6 find:4 count:3 max:3 sort:2 copy:2 equal:1
+gemrb/gemrb count:53 find:7 fill:5 move:3 remove:3 find_if:2 sort:2 rotate:1 min:1 replace:1 merge:1 includes:1 search:1 transform:1
+arq5x/bedtools2 count:69 min:61 max:42 sort:28 merge:22 move:21 find:18 remove:17 copy:16 swap:16 search:7 reverse:4 unique:4 mismatch:4 generate:4 equal:4 for_each:2 accumulate:1 remove_if:1 transform:1
+miguelmartin75/anax transform:10 move:5 remove:4
+PrivacySolutions/i2pd min:24 unique:14 find:12 count:6 shuffle:2 transform:2 fill:1 move:1 random_shuffle:1 search:1 remove:1
+MrKepzie/Natron move:135 min:110 remove:96 max:92 find:79 count:50 equal:33 replace:27 fill:23 copy:18 transform:16 generate:15 minmax:11 search:9 sort:8 find_first_of:4 reverse:3 upper_bound:3 rotate:2 swap:2 for_each:1 find_if:1 merge:1 mismatch:1
+tongwang/s3fs-c find:31 copy:24 max:13 find_first_of:10 move:5 remove:5 count:4 min:4 replace:3 fill:2 equal:2 for_each:1
+avxsynth/avxsynth min:32 max:5 find:2
+blackberry/WebWorks-Community-APIs find:10 count:8 move:7 min:3 remove:3 generate:2 transform:2 remove_if:1
+marioyc/Online-Judge-Solutions max:888 min:607 sort:402 fill:337 swap:111 count:80 search:69 find:65 move:35 reverse:30 unique:30 generate:30 lower_bound:22 next_permutation:20 merge:12 equal:10 rotate:9 stable_sort:4 accumulate:4 prev_permutation:3 partial_sum:3 transform:2 inner_product:1 remove:1
+akumuli/Akumuli count:107 search:53 max:37 merge:28 move:15 min:13 remove:10 sort:9 lower_bound:9 upper_bound:5 binary_search:4 copy:4 shuffle:2 random_shuffle:2 unique:2 generate:2 equal:2 make_heap:1 generate_n:1 push_heap:1 transform:1 pop_heap:1
+rbei-etas/busmaster move:45 min:29 count:19 max:17 copy:13 find:9 replace:9 remove:9 equal:7 sort:4 fill:3 reverse:3 unique:3 swap:2 mismatch:1 includes:1 search:1
+bingmann/sound-of-sorting sort:109 swap:105 count:63 merge:45 min:21 copy:21 find:11 unique:10 max:10 move:8 shuffle:6 rotate:6 partition:5 random_shuffle:5 equal:5 search:4 is_sorted:4 swap_ranges:3 generate:3 fill:2 stable_sort:2 upper_bound:2 partial_sum:2 sort_heap:2 lower_bound:2 reverse:1 copy_backward:1 make_heap:1
+vinipsmaker/tufao move:2 remove:2 copy:2
+gecube/opencaesar3 max:11 move:5 find:1 min:1
+cryos/avogadro move:70 remove:55 copy:33 count:29 min:14 search:14 sort:13 unique:13 max:12 find:11 replace:6 fill:3 rotate:3 generate:2 transform:1
+jzdziarski/nestopia fill:24 lower_bound:8 count:4 sort:2 swap:2
+zeromq/zeromq4-x min:127 count:111 max:48 move:15 find:3 equal_range:2 equal:2 find_end:2 remove:2 remove_if:1 generate:1
+yvt/openspades max:107 min:63 sort:29 count:28 swap:28 find:21 move:15 shuffle:8 fill:6 reverse:3 unique:2 remove:2 copy:2 equal_range:1 equal:1 search:1
+DmitryKoterov/dklab_realplexor min:1 max:1 copy:1
+mangoszero/server max:57 count:28 swap:27 move:15 find:14 remove:13 copy:12 min:10 unique:3 replace:2 search:2 transform:2 fill:1 reverse:1 lexicographical_compare:1 equal:1
+lmmenge/MeSNEmu min:36 move:27 swap:10 count:8 max:8 find:4 copy:3 fill:1 accumulate:1 mismatch:1 lower_bound:1
+lzhang10/maxent count:79 max:49 find:11 fill:8 sort:7 min:4 merge:3 equal:2 shuffle:1 move:1 random_shuffle:1 remove:1 copy:1
+Bromeon/Thor move:43 swap:31 max:18 remove:16 transform:7 count:6 fill:5 min:4 merge:4 equal:4 copy:3 reverse:2 rotate:2 find:2 remove_if:2 includes:2 replace:1 accumulate:1 copy_if:1
+izenecloud/sf1r-lite min:199 search:167 merge:134 sort:113 max:88 find:86 count:71 swap:67 move:29 remove:24 equal:10 unique:8 reverse:6 rotate:4 fill:3 replace:3 accumulate:3 generate:3 copy:3 max_element:2 for_each:1 stable_sort:1 remove_if:1 mismatch:1 min_element:1 set_difference:1
+ericniebler/range-v3 is_heap:524 is_heap_until:494 sort:209 unique:117 shuffle:61 random_shuffle:61 move:34 copy:32 make_heap:30 is_sorted:30 equal:26 count:24 partial_sort:19 pop_heap:19 swap:18 min:17 lexicographical_compare:16 mismatch:15 swap_ranges:14 max:14 max_element:14 stable_sort:13 fill:11 sort_heap:10 next_permutation:9 push_heap:9 fill_n:9 reverse:8 minmax:8 minmax_element:8 prev_permutation:7 partial_sort_copy:7 iota:6 merge:6 move_backward:6 transform:6 min_element:6 nth_element:6 copy_backward:5 inplace_merge:3
+arq5x/bedtools count:63 min:47 max:28 merge:22 move:21 find:18 sort:17 remove:17 copy:16 swap:15 search:7 mismatch:4 generate:4 equal:4 for_each:2 accumulate:1 remove_if:1 transform:1
+vrtadmin/clamav-devel min:1279 move:817 remove:383 find:362 count:359 replace:217 copy:186 max:142 sort:136 merge:124 transform:92 swap:91 generate:68 equal:61 unique:59 search:45 mismatch:35 shuffle:34 reverse:28 fill:24 upper_bound:24 lower_bound:15 includes:13 for_each:9 rotate:9 stable_sort:7 accumulate:4 binary_search:2 equal_range:2 find_first_of:2 partition:1 remove_if:1 set_difference:1
+xLAva/JediOutcastLinux find:38 count:23 min:21 max:19 move:18 sort:13 search:8 equal_range:4 equal:4 push_heap:2 transform:2 remove:2 fill:1 merge:1 pop_heap:1 copy:1
+Grumbel/xboxdrv min:8 max:8 fill:4 count:3 find:1 sort:1 equal:1
+Forkk/MultiMC4 find:8 move:5 transform:3 remove:3 search:2 sort:1 generate:1
+ImageEngine/gaffer move:11 remove:7 find:1
+commontk/CTK find:17 move:13 remove:12 copy:9 unique:5 search:4 sort:3 count:3 min:2 transform:2 lower_bound:2 generate:1 includes:1
+earl/llvm-mirror min:2232 move:1090 count:798 find:720 shuffle:643 remove:500 replace:427 max:368 swap:302 copy:299 unique:242 sort:206 merge:204 generate:198 transform:187 equal:149 search:102 reverse:96 mismatch:52 fill:43 includes:27 rotate:26 lower_bound:23 stable_sort:14 count_if:14 upper_bound:13 accumulate:11 for_each:9 find_if:8 partition:6 find_first_of:5 minmax:5 copy_if:4 random_shuffle:3 max_element:3 binary_search:2 none_of:2 remove_if:2 is_sorted:2 set_union:1 swap_ranges:1 copy_backward:1 set_difference:1
+sirikata/sirikata max:137 move:103 find:101 sort:100 remove:69 min:62 generate:54 count:51 swap:18 copy:9 fill:4 equal:4 pop_heap:4 equal_range:3 unique:3 make_heap:2 transform:2 reverse:1 rotate:1 replace:1 merge:1 search:1
+joto/osmium accumulate:2
+FreeCAD/FreeCAD_sf_master move:249 min:237 max:187 find:176 count:173 remove:146 sort:106 fill:66 swap:64 search:56 generate:39 copy:32 equal:31 unique:22 reverse:13 transform:12 count_if:10 find_if:9 replace:9 adjacent_find:5 accumulate:3 set_intersection:3 partition:2 rotate:2 iota:2 includes:2 max_element:2 min_element:2 set_difference:2 set_union:1 merge:1
+nightingale-media-player/nightingale-hacking min:153 move:142 sort:95 max:95 count:80 find:61 remove:46 unique:37 copy:32 equal:23 swap:13 includes:10 replace:9 generate:7 search:7 for_each:6 reverse:6 mismatch:5 fill:4 lower_bound:3 merge:2 copy_n:2 count_if:2 shuffle:1 random_shuffle:1
+tomahawk-player/tomahawk-resolvers max:16 count:9 swap:6 fill:2 find:2 min:2 unique:1 mismatch:1 lexicographical_compare:1 equal:1 fill_n:1 copy:1
+jackaudio/jack2 max:25 min:24 move:13 find:3 sort:3 count:3 remove:3 copy:2 fill:1
+jgh-/VideoCore min:7 count:4 find:3 max:2 search:2
+m1ch1/mapkeeper move:5 remove:5 find:3
+ImageEngine/cortex find:178 min:124 copy:123 move:100 max:90 transform:86 remove:68 reverse:61 count:52 sort:35 accumulate:23 unique:18 swap:17 find_first_of:14 merge:12 fill:9 replace:9 equal:8 search:5 lower_bound:4 max_element:3 shuffle:2 upper_bound:2 random_shuffle:1 mismatch:1 generate:1 set_difference:1 any_of:1
+vcmi/vcmi max:44 min:42 find:30 count:22 unique:11 generate:11 copy:11 replace:6 move:4 reverse:4 sort:4 fill:1 stable_sort:1 accumulate:1 equal:1 max_element:1 search:1 remove:1
+pfi/pficommon replace:12 min:11 max:9 equal:7 sort:6 swap:5 fill:4 count:4 search:4 copy:3 copy_if:3 unique:2 move:1 generate:1 remove:1
+PySide/PySide count:5 find:3 max:2 search:2 binary_search:1 fill:1 move:1 min:1 remove:1
+larroy/clearskies_core count:3 generate_n:1 generate:1
+GLSL-Debugger/GLSL-Debugger copy:60 min:13 find:11 unique:5 search:5 reverse:4 move:2 remove:2
+timschmidt/repsnapper min:65 max:47 transform:39 move:29 fill:24 sort:15 count:13 rotate:10 find:10 remove:10 reverse:6 merge:4 copy:3 swap:3 generate:2 equal:2 search:2 shuffle:1 random_shuffle:1 partial_sum:1
+Ultimaker/CuraEngine max:55 min:42 move:14 reverse:9 remove:8 fill:4 count:4 sort:4 find:3 swap:3 copy:2 merge:1 equal:1
+opdenkamp/xbmc-pvr-addons move:66 min:36 find:31 fill:13 remove:12 count:8 generate:8 max:6 reverse:2 sort:2 replace:2 merge:2 unique:2 transform:2 find_first_of:1 copy:1
+loot/loot move:25 min:7 sort:7 remove:7 find:2 max:2 generate:2 count:1 equal:1
+kikohs/freak rotate:3 sort:3 min:2 max:2 generate:2 fill:1 move:1 merge:1 remove:1
+taskwarrior/task find:200 min:136 move:92 count:84 replace:79 remove:76 max:73 sort:55 merge:25 search:21 copy:17 generate:15 unique:14 equal:13 reverse:8 accumulate:3 fill:2 mismatch:2 transform:2 find_first_of:2 stable_sort:1
+cocos2d-x/cocos2dx-win8 move:39 remove:18 min:6 find:4 count:3 max:3 sort:2 copy:2 equal:1
+zeux/pugixml sort:80 copy:24 reverse:22 max:16 find:8 move:7 count:7 equal:7 remove:4 shuffle:2 random_shuffle:2 min:2 swap:2 generate:1
+xzero/x0 move:65 min:62 find:50 unique:50 max:30 remove:21 count:18 generate:15 copy:13 equal:12 replace:6 find_if:5 lower_bound:5 swap:5 search:4 mismatch:3 merge:1 includes:1
+fix8/fix8 find:25 count:13 unique:12 generate:11 copy:9 min:8 generate_n:7 includes:5 for_each:4
+asantee/ethanon count:50 min:9 move:8 remove:8 generate:5 max:5 fill:1 find:1 replace:1 transform:1
+juj/MathGeoLib max:75 min:15 count:1 sort:1
+milakov/nnForge count:558 max:135 transform:58 min:51 accumulate:20 reverse:15 for_each:14 fill:13 find:10 generate:8 equal:7 search:7 max_element:6 sort:4 merge:4 min_element:4 rotate:3 copy:3 binary_search:2 any_of:2 set_difference:1 fill_n:1
+cybozu/yrmcds find:32 move:16 max:12 fill:10 remove:10 count:9 unique:9 copy:9 min:5 all_of:3 replace:3 none_of:2 sort:1 remove_if:1 any_of:1 swap:1
+tlorach/nvFX find:21 move:2 max:2 remove:2 sort:1
+slowmoVideo/slowmoVideo max:15 copy:6 count:5 fill:1 move:1 min:1
+csmith-project/csmith min:127 equal:34 max:11 find:7 count:6 min_element:3 max_element:2 sort:1 generate:1
+headmyshoulder/odeint-v2 copy:91 for_each:79 max:22 accumulate:20 transform:19 copy_if:9 find:7 count:7 sort:5 find_if:3 iota:3 min:3 unique:1 upper_bound:1 lower_bound:1
+tpaviot/pythonocc move:92 min:49 max:36 find:31 remove:28 sort:15 count:8 equal:5 generate:4 reverse:3 replace:3 swap:3 fill:2 search:2 copy:2 stable_sort:1 unique:1 set_intersection:1 lexicographical_compare:1
+kusma/vlee min:15 count:7 generate:6 find:1 transform:1
+ruben2020/codequery search:29 copy:9 replace:4 min:3
+Open-Transactions/Open-Transactions count:659 min:312 move:224 max:122 find:111 remove:84 copy:51 generate:37 replace:13 sort:9 equal:7 fill:4 search:3 find_if:2 reverse:2 equal_range:2 find_end:2 merge:1 remove_if:1 unique:1 mismatch:1 find_first_of:1
+ekg/freebayes min:16 count:14 max:14 copy:12 find:10 generate:6 sort:4 search:3 merge:2 accumulate:2 unique:2
+Netflix/NfWebCrypto generate:12 find:9 replace:4 swap:4 count:3 min:3 move:2 equal:2 copy:2 search:1 remove:1
+FluXy/SMC fill:7 count:7 sort:7 find:5 move:3 replace:2 find_if:1 min:1 remove:1
+swganh/mmoserver move:119 min:112 max:97 remove:89 count:59 find:32 for_each:20 find_if:5 copy:5 search:4 swap:4 fill:3 replace:3 generate:2 transform:2 sort:1 accumulate:1 remove_if:1
+luabind/luabind count:5 swap:3 move:1 remove:1
+Ancurio/mkxp fill:31 count:16 min:14 max:12 swap:9 find:8 move:2 generate:1 remove:1 copy:1
+dariomanesku/cmft count:33 equal:30 swap:10 move:1
+Reactive-Extensions/RxCpp count:13 accumulate:6 fill:2 mismatch:2 for_each:1 find:1 min:1 max:1 search:1
+chokkan/crfsuite swap:21 reverse:13 copy:10 equal:9 fill:4 generate:4 count:2 find:1 replace:1
+OpenCPN/OpenCPN max:122 min:113 count:21 find:17 swap:13 transform:12 copy:8 fill:6 move:6 equal:4 accumulate:2 remove:2 reverse:1 merge:1 sort:1 includes:1 search:1
+scantailor/scantailor max:489 min:404 move:342 remove:182 fill:173 swap:121 transform:107 count:106 find:100 sort:47 rotate:37 reverse:27 copy:25 lower_bound:24 equal:18 merge:15 replace:11 unique:9 search:8 find_if:4 for_each:2 equal_range:2 remove_if:2 upper_bound:2 partial_sort:1 binary_search:1 adjacent_find:1 accumulate:1 generate:1 min_element:1 set_difference:1
+icecc/icecream max:98 min:50 move:43 find:42 remove:41 count:17 fill:9 replace:3 find_first_of:3 swap:3 equal:2 sort:1 mismatch:1 includes:1 upper_bound:1 search:1 transform:1 lower_bound:1
+matplotlib/basemap min:138 max:121 move:61 sort:53 equal:40 remove:36 find:31 search:29 copy:29 merge:25 includes:16 unique:14 reverse:13 count:5 transform:4 swap:4 fill:3 for_each:2 generate:2 set_intersection:2 find_first_of:2 replace:1
+simongog/sdsl-lite max:97 min:89 count:72 move:49 remove:35 find:28 unique:25 equal:25 sort:16 search:14 swap:12 fill:10 merge:7 copy:6 shuffle:3 random_shuffle:3 transform:3 lower_bound:3 mismatch:2 generate:2 upper_bound:2 max_element:2 find_first_of:2 rotate:1 equal_range:1 replace:1 accumulate:1 set_intersection:1 includes:1 count_if:1
+zeroreserve/ZeroReserve equal:4 move:1 find:1 remove:1
+aevum/libgdx-cpp max:90 min:79 transform:54 count:16 find:11 rotate:9 move:8 fill:7 unique:5 remove:4 sort:3 generate:3 find_if:2 find_first_of:2 reverse:1 merge:1 swap:1
+LaurentGomila/SFML-Game-Development-Book move:118 transform:48 remove:36 unique:31 min:30 max:25 find:16 find_if:8 sort:6 fill:5 remove_if:5 for_each:4 minmax:4 swap:4
+POV-Ray/povray max:1172 min:1036 count:162 move:98 find:77 copy:66 fill:62 sort:48 swap:45 generate:31 rotate:28 transform:27 merge:26 equal:24 remove:21 search:11 replace:6 reverse:2 pop_heap:2 partition:1 accumulate:1 make_heap:1 includes:1 push_heap:1
+petuum/public partition:38 max:19 count:18 min:16 find:9 shuffle:4 move:3 random_shuffle:3 fill:2 lower_bound:2 unique:1
+splintermind/Dwarf-Therapist count:28 max:17 sort:9 move:8 remove:8 min:3 nth_element:2 find:1 unique:1 transform:1
+MTG/essentia min:61 find:30 merge:28 sort:27 move:22 remove:21 copy:14 replace:7 equal:7 max:6 fill:1 copy_if:1
+erengy/taiga find:33 replace:16 count:12 max:10 min:6 move:5 find_first_of:5 equal:5 search:4 transform:4 sort:2 remove_if:2 remove:2 find_if:1 stable_sort:1 copy:1 swap:1
+mjhsieh/McBopomofo includes:4 find:2 transform:2
+cmangos/mangos-wotlk count:66 max:66 min:51 find:47 swap:27 move:20 remove:18 copy:18 generate:12 replace:9 fill:7 unique:7 reverse:5 search:5 sort:3 max_element:3 transform:3 min_element:3 equal:2 inner_product:1 set_intersection:1 lexicographical_compare:1
+mangos-one/server-old max:64 count:60 min:51 swap:27 find:26 move:15 remove:13 copy:11 fill:7 unique:7 reverse:4 generate:4 transform:4 sort:3 replace:3 max_element:3 min_element:3 equal:2 search:2 inner_product:1 set_intersection:1 lexicographical_compare:1
+mbunkus/mkvtoolnix max:138 min:116 merge:78 move:56 find:52 remove:34 sort:19 copy:16 count:15 unique:15 swap:12 fill:4 reverse:2 accumulate:2 search:2 find_if:1 replace:1 generate:1 equal:1 transform:1
+cathywu/Sentiment-Analysis swap:322 reverse:228 equal:152 copy:138 max:88 fill:68 mismatch:60 min:55 generate:51 find:17 replace:17 move:7
+AS3NUI/airkinect-2-core find:4 sort:4 copy:2 lexicographical_compare:1
+tunabrain/incremental-fluids max:187 min:120 rotate:40 fill:34 count:19 swap:8 copy:7 move:1 find:1 accumulate:1 transform:1
+jts/sga min:216 max:187 count:132 find:42 sort:42 reverse:39 mismatch:19 move:18 copy:13 partition:12 fill:9 merge:9 transform:9 search:8 remove:8 unique:7 swap:6 generate:3 equal:3 min_element:2 replace:1 stable_sort:1 upper_bound:1 find_first_of:1
+nucleic/atom copy:8 sort:6 lower_bound:6 swap:2
+quarnster/boxeebox-xbmc min:97 find:87 max:75 count:41 move:35 rotate:24 search:19 sort:16 swap:15 fill:13 remove:12 transform:9 copy:7 for_each:6 lower_bound:5 upper_bound:4 find_first_of:4 unique:3 generate:3 includes:3 replace:2 accumulate:2 find_if:1 merge:1 remove_if:1 equal:1
+unknownworlds/hlslparser min:6 max:5 count:2 sort:2
+Heeks/heekscad move:52 copy:26 fill:23 find:20 sort:13 max:10 search:6 transform:4 reverse:3 min:1 replace:1 find_first_of:1 set_difference:1 generate:1
+BartoszMilewski/Okasaki generate:13 move:10 for_each:5 copy:4 reverse:3 fill:2 find:2 count:2 accumulate:1 transform:1
+Tokutek/mysql-5.5 swap:50 count:4 move:3 rotate:3 min:3 remove:3 reverse:2 find:2
+adobe/webkit min:687 max:672 move:287 count:252 find:173 fill:154 transform:153 remove:131 copy:123 replace:114 search:69 equal:65 generate:47 sort:27 rotate:24 unique:19 swap:19 accumulate:17 reverse:11 merge:8 mismatch:7 includes:4 stable_sort:2 binary_search:1 shuffle:1 lower_bound:1
+highpower/xiva swap:6 find:4 for_each:2 find_if:1 reverse:1 equal_range:1 equal:1
+rose-compiler/rose find:102 generate:101 min:84 move:80 count:39 remove:39 equal:38 max:38 copy:31 unique:22 search:21 sort:15 transform:14 replace:13 includes:12 find_if:6 fill:4 merge:4 for_each:3 reverse:3 accumulate:3 lower_bound:3 swap:3 remove_if:2 equal_range:1 mismatch:1 find_first_of:1 upper_bound:1
+sonyxperiadev/WebGL min:498 max:466 move:226 count:149 remove:113 find:112 transform:98 search:83 replace:81 fill:76 equal:65 copy:53 generate:36 sort:24 swap:13 unique:12 mismatch:8 merge:7 reverse:4 rotate:2 lower_bound:2 binary_search:1 accumulate:1 remove_if:1 includes:1
+id-Software/GtkRadiant max:150 min:142 transform:115 count:37 rotate:27 move:21 find:20 swap:8 equal:6 merge:5 fill:4 replace:4 remove:3 reverse:2 generate:2 for_each:1 copy:1
+goldeneye-source/ges-code count:73 max:57 swap:40 min:32 copy:29 sort:17 move:11 find:11 generate:5 fill:4 reverse:3 lower_bound:3 make_heap:2 mismatch:2 sort_heap:2 transform:2 partition:1 binary_search:1 rotate:1 merge:1 lexicographical_compare:1 equal:1 minmax:1 search:1
+sumeetchhetri/ffead-cpp replace:303 find:251 includes:18 generate:11 min:8 max:4
