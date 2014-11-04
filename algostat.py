@@ -4,11 +4,12 @@ Find the most frequently used algorithms of the C++ standard library for
 C++ projects on Github.
 
 Usage:
-    algostat.py -u USERNAME -p=PASSWORD
+    algostat.py -u USERNAME -p=PASSWORD [-v]
     algostat.py (-h | --help)
 
 Options:
     -h --help         Show this screen
+    -v                Show verbose output
     -u USERNAME       Github Account to make API requests with
     -p PASSWORD       Password or OAuth token of your Github Account
 """
@@ -18,6 +19,8 @@ import shutil
 import subprocess
 import signal
 import sys
+import operator
+from multiprocessing.dummy import Pool as ThreadPool
 from pathlib import Path
 from collections import Counter
 from contextlib import contextmanager
@@ -30,6 +33,9 @@ from docopt import docopt
 from algorithm import filter_cpp_files, count_algorithms
 
 
+VERBOSE=False
+
+
 class GitRepo:
     def __init__(self, name, git_url):
         self.name = name
@@ -39,6 +45,8 @@ class GitRepo:
 @contextmanager
 def clone(repo):
     repo.dir = tempfile.mkdtemp(suffix="cpp")
+    if VERBOSE:
+        print("Cloning {0} into {1}...".format(repo.git_url, repo.dir))
     with open(os.devnull, "w") as FNULL:
         subprocess.check_call(["git", "clone", repo.git_url, repo.dir],
                                stdout=FNULL, stderr=subprocess.STDOUT)
@@ -74,17 +82,24 @@ def count_repo_algorithms(repo):
 
 
 def print_stats(used_algorithms):
-    for algorithm, count in used_algorithms.items():
+    sorted_items = sorted(used_algorithms.items(),
+                          key=operator.itemgetter(1),
+                          reverse=True)
+    for algorithm, count in sorted_items:
         print("{0}:{1}".format(algorithm, count))
 
 
 if __name__ == '__main__':
     args = docopt(__doc__)
     all_algorithms = Counter()
+    pool = ThreadPool(4)
+
+    if args["-v"]:
+        VERBOSE = True
 
     def signal_handler(signal, frame):
         print(20 * "=")
-        print("All algorithms")
+        print("Algorithms until Cancellation")
         print(20 * "=")
         print_stats(all_algorithms)
         sys.exit(0)
@@ -92,13 +107,23 @@ if __name__ == '__main__':
     def make_request(url):
         headers = {"Accept": "application/vnd.github.v3+json"}
         auth=HTTPBasicAuth(args["-u"], args["-p"])
+
+        if VERBOSE:
+            print("Get {0}".format(url))
+
         return requests.get(url, headers=headers, auth=auth)
+
+    def analyze_repo(repo):
+        with clone(repo)  as local_repo:
+            return count_repo_algorithms(local_repo)
 
     signal.signal(signal.SIGINT, signal_handler)
 
-    for repo in get_cpp_repositories(make_request):
-        with clone(repo)  as local_repo:
-            all_algorithms += count_repo_algorithms(local_repo)
+    analyzed_repos = pool.map(analyze_repo, get_cpp_repositories(make_request))
+    pool.close()
+    pool.join()
+    for repo_algorithms in analyzed_repos:
+        all_algorithms +=repo_algorithms
 
     print(20 * "=")
     print("All algorithms")
