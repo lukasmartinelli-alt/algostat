@@ -93,12 +93,14 @@ def print_stats(repo, used_algorithms):
 
 def analyze_repo(repo):
     """Count algorithms for repo"""
-    with clone(repo)  as local_repo:
-        repo_algorithms = count_repo_algorithms(local_repo)
-        if len(repo_algorithms) > 0:
-            print_stats(repo, repo_algorithms)
-        return repo_algorithms
-
+    try:
+        with clone(repo)  as local_repo:
+            repo_algorithms = count_repo_algorithms(local_repo)
+            if len(repo_algorithms) > 0:
+                print_stats(repo, repo_algorithms)
+            return repo_algorithms
+    except subprocess.CalledProcessError:
+        return Counter()
 
 if __name__ == '__main__':
     args = docopt(__doc__)
