@@ -20,6 +20,7 @@ import signal
 import sys
 from pathlib import Path
 from collections import Counter
+from contextlib import contextmanager
 
 import requests
 from requests.auth import HTTPBasicAuth
@@ -29,20 +30,21 @@ from docopt import docopt
 from algorithm import filter_cpp_files, count_algorithms
 
 
-class TemporaryGitRepo:
-    def __init__(self, git_url):
+class GitRepo:
+    def __init__(self, name, git_url):
+        self.name = name
         self.git_url = git_url
 
-    def __enter__(self):
-        self.dir = tempfile.mkdtemp(suffix="cpp")
-        FNULL = open(os.devnull, 'w')
-        print("Cloning {0} into {1}".format(git_url, self.dir))
-        subprocess.check_call(["git", "clone", self.git_url, self.dir],
-                               stdout=FNULL, stderr=subprocess.STDOUT)
-        return self
 
-    def __exit__(self, type, value, traceback):
-        shutil.rmtree(self.dir)
+@contextmanager
+def clone(repo):
+    repo.dir = tempfile.mkdtemp(suffix="cpp")
+    with open(os.devnull, "w") as FNULL:
+        subprocess.check_call(["git", "clone", repo.git_url, repo.dir],
+                               stdout=FNULL, stderr=subprocess.STDOUT)
+    yield repo
+    shutil.rmtree(repo.dir)
+    del repo.dir
 
 
 def get_cpp_repositories(make_request):
@@ -53,8 +55,9 @@ def get_cpp_repositories(make_request):
     while "next" in response.links.keys():
         url = response.links["next"]["url"]
         response = make_request(url)
+
         for repo in response.json()["items"]:
-            yield repo["git_url"]
+            yield GitRepo(repo["full_name"], repo["git_url"])
 
 
 def count_repo_algorithms(repo):
@@ -62,20 +65,28 @@ def count_repo_algorithms(repo):
     repo_algorithms = Counter()
     for cpp_path in filter_cpp_files(repo):
         repo_algorithms += count_algorithms(cpp_path)
-    print("Found algorithms for {0}".format(repo.dir))
-    print(repo_algorithms)
+    if len(repo_algorithms) > 0:
+        print(40 * "=")
+        print("Algorithm stats for {0}".format(repo.name))
+        print(40 * "=")
+        print_stats(repo_algorithms)
     return repo_algorithms
+
+
+def print_stats(used_algorithms):
+    for algorithm, count in used_algorithms.items():
+        print("{0}:{1}".format(algorithm, count))
+
 
 if __name__ == '__main__':
     args = docopt(__doc__)
     all_algorithms = Counter()
 
-    def print_results():
-        print("-----------RESULT------------")
-        print(all_algorithms)
-
     def signal_handler(signal, frame):
-        print_results()
+        print(20 * "=")
+        print("All algorithms")
+        print(20 * "=")
+        print_stats(all_algorithms)
         sys.exit(0)
 
     def make_request(url):
@@ -85,8 +96,11 @@ if __name__ == '__main__':
 
     signal.signal(signal.SIGINT, signal_handler)
 
-    for git_url in get_cpp_repositories(make_request):
-        with TemporaryGitRepo(git_url) as repo:
-            all_algorithms += count_repo_algorithms(repo)
+    for repo in get_cpp_repositories(make_request):
+        with clone(repo)  as local_repo:
+            all_algorithms += count_repo_algorithms(local_repo)
 
-    print_results()
+    print(20 * "=")
+    print("All algorithms")
+    print(20 * "=")
+    print_stats(all_algorithms)
