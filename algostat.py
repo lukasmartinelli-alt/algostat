@@ -66,12 +66,6 @@ def fetch_jobs_stdin():
         yield GitRepo(line.strip())
 
 
-def fetch_jobs_redis(redis):
-    while redis.llen("jobs") > 0:
-        repo_name = redis.lpop("jobs").decode("utf-8")
-        yield GitRepo(repo_name)
-
-
 if __name__ == '__main__':
     args = docopt(__doc__)
     thread_count = int(args["-t"])
