@@ -43,20 +43,20 @@ export ALGOSTAT_RQ="localhost:6379"
 Now you need to fill the job queue.
 
 ```
-cpp_repos.txt | ./rq-enqueue-jobs.py
+cpp_repos.txt | ./enqueue-jobs.py
 ```
 
 On your workers you need to tell  `algostat.py` to fetch the jobs from
 a redis queue and then store it in a results queue.
 
 ```
-./algostat.py --rq | ./rq-store-results.py
+./algostat.py --rq | ./enqueue-results.py
 ```
 
 After that you aggregate the results in a single csv.
 
 ```
-./rq-fetch-results.py | ./create-csv.py > results.csv
+./fetch-results.py | ./create-csv.py > results.csv
 ```
 
 ## Installation
