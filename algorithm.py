@@ -1,7 +1,8 @@
+import os
 from collections import Counter
 from pathlib import Path
 
-
+VERBOSE = "ALGOSTAT_VERBOSE" in os.environ
 ALGORITHMS = [# Non-modifying sequence operations
               "all_of", "any_of", "none_of", "for_each", "count", "count_if",
               "mismatch", "equal", "find", "find_if", "find_if_not", "find_end",
@@ -72,6 +73,8 @@ def filter_cpp_files(repo):
                 with cpp_path.open() as cpp_file:
                     if _has_headers(cpp_file):
                         yield cpp_file
+                    elif VERBOSE:
+                        print("Skipping " + cpp_path)
     except OSError:
         # Too many recursive symlinks
         pass

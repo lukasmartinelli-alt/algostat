@@ -8,6 +8,12 @@ You can look and filter the results in [results.csv](results.csv).
 
 ## Usage
 
+For best mode you should disable input and output buffering of Python.
+
+```
+export PYTHONUNBUFFERED=true
+```
+
 ### Analyze top C++ repos on Github
 
 Analyze the top C++ repos on Github and create a CSV file.
