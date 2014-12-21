@@ -1,28 +1,66 @@
-Algostat
-========
+# Algostat
 
-Finds the most frequently used C++ algorithms on Github
+Tools to find the most frequently used C++ algorithms on Github.
 
-Installation
-------------
+## Usage
 
-1. Clone the repository
-2. Install requirements with `pip install -r requirements.txt`
+### Analyze top 500 C++ repos on Github
 
-Usage
------
+Analyze the top 500 C++ repos on Github and create a CSV file.
+For using the Github API you need to provide a Github Access Token
+with the `ALGOSTAT_GH_TOKEN` environment variable.
 
-Because of the Github API rate limits it is recommended to use your Github User
-to connect with Github.
-
-```bash
-./algostat.py -u USERNAME -p PASSWORD
+```
+export ALGOSTAT_GH_TOKEN="asdfqwet12341532"
+./top-github-repos.py | ./algostat.py | ./create-csv.py > results.csv
 ```
 
-Results
--------
+### Analyze all C++ repos on Github
 
-These functions have over a thousand usages and seem to be the most used ones. 
+Analyze all C++ repos listed in [GHTorrent](http://ghtorrent.org/).
+
+```
+cpp_repos.txt | ./algostat.py | ./create-csv.py > results.csv
+```
+
+### Distributed analyzing with Redis Queue and workers
+
+Use a Redis Queue to distribute jobs among workers and then fetch the results.
+You need to provide the `ALGOSTAT_RQ` environment variable to the process with the
+address of the redis server.
+
+```
+export ALGOSTAT_RQ="localhost:6379"
+```
+
+Now you need to fill the job queue.
+
+```
+cpp_repos.txt | ./rq-enqueue-jobs.py
+```
+
+On your workers you need to tell  `algostat.py` to fetch the jobs from
+a redis queue and then store it in a results queue.
+
+```
+./algostat.py --rq | ./rq-store-results.py
+```
+
+After that you aggregate the results in a single csv.
+
+```
+./rq-fetch-results.py | ./create-csv.py > results.csv
+```
+
+## Installation
+
+1. Make sure you have Python 3 installed
+2. Clone the repository
+3. Install requirements with `pip install -r requirements.txt`
+
+## Results
+
+These functions have over a thousand usages and seem to be the most used ones.
 
 Algorithm   | Count
 ------------|-----------
@@ -81,5 +119,3 @@ Algorithm                   | Count
 `find_if_not`               | 0
 `partition_copy`            | 0
 `unique_copyis_partitioned` | 0
-
-
