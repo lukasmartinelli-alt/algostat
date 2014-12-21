@@ -1,5 +1,6 @@
 import os
 import sys
+import json
 
 from redis import Redis
 
@@ -7,6 +8,7 @@ from repo import GitRepo
 
 HOST_ENV = "ALGOSTAT_RQ_HOST"
 PORT_ENV = "ALGOSTAT_RQ_PORT"
+CLOUDFOUNDRY_ENV = "VCAP_SERVICES"
 JOBS_LIST = "algostat:jobs"
 RESULTS_LIST = "algostat:results"
 
@@ -31,7 +33,14 @@ class RedisQueue:
             yield self.redis.lpop(RESULTS_LIST).decode("utf-8")
 
     def from_config():
-        if not (HOST_ENV in os.environ and PORT_ENV in os.environ):
+        if "VCAP_SERVICES" in os.environ:
+            rediscloud_service = json.loads(os.environ[CLOUDFOUNDRY_ENV])['rediscloud'][0]
+            credentials = rediscloud_service['credentials']
+            redis = Redis(host=credentials['hostname'],
+                          port=credentials['port'],
+                          password=credentials['password'])
+            return RedisQueue(redis)
+        elif not (HOST_ENV in os.environ and PORT_ENV in os.environ):
             sys.stderr.write("Please provide {0} and {1} environment vars\n"
                              .format(HOST_ENV, PORT_ENV))
             sys.exit(1)
