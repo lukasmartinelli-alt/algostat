@@ -64,11 +64,14 @@ def count_algorithms(cpp_file):
 def filter_cpp_files(repo):
     """Filter out all cpp files that include an <algorithm> or <numeric> header"""
     repo_path = Path(repo.dir)
+
     try:
-        for cpp_path in repo_path.glob("**/*.cpp"):
-            with cpp_path.open() as cpp_file:
-                if _has_headers(cpp_file):
-                    yield cpp_file
+        file_types = [repo_path.glob("**/*." + ext) for ext in ["cpp", "hpp", "h", "c"]]
+        for paths in file_types:
+            for cpp_path in paths:
+                with cpp_path.open() as cpp_file:
+                    if _has_headers(cpp_file):
+                        yield cpp_file
     except OSError:
         # Too many recursive symlinks
         pass

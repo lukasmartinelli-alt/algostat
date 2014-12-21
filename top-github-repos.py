@@ -9,7 +9,7 @@ import requests
 
 def get_cpp_repositories():
     """Search for the top 1000 cpp repos in github and return their git url"""
-    url = "https://api.github.com/search/repositories?q=language:cpp&per_page=100"
+    url = "https://api.github.com/search/repositories?q=language:cpp&per_page=101"
     headers = {"Accept": "application/vnd.github.v3+json"}
     response = requests.get(url, headers=headers)
 

@@ -31,4 +31,5 @@ def write_line(line):
 if __name__ == '__main__':
     write_header()
     for line in fileinput.input():
-        write_line(line)
+        print(line)
+        write_line(line.strip())
