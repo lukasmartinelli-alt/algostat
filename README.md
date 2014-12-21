@@ -8,14 +8,11 @@ You can look and filter the results in [results.csv](results.csv).
 
 ## Usage
 
-### Analyze top 500 C++ repos on Github
+### Analyze top C++ repos on Github
 
-Analyze the top 500 C++ repos on Github and create a CSV file.
-For using the Github API you need to provide a Github Access Token
-with the `ALGOSTAT_GH_TOKEN` environment variable.
+Analyze the top C++ repos on Github and create a CSV file.
 
 ```
-export ALGOSTAT_GH_TOKEN="asdfqwet12341532"
 ./top-github-repos.py | ./algostat.py | ./create-csv.py > results.csv
 ```
 
@@ -27,7 +24,7 @@ Analyze all C++ repos listed in [GHTorrent](http://ghtorrent.org/).
 cpp_repos.txt | ./algostat.py | ./create-csv.py > results.csv
 ```
 
-### Distributed analyzing with Redis Queue and workers
+### Distributed Analyzing with Redis Queue and workers
 
 Use a Redis Queue to distribute jobs among workers and then fetch the results.
 You need to provide the `ALGOSTAT_RQ` environment variable to the process with the
