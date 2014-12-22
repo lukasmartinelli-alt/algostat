@@ -12,7 +12,7 @@ class GitRepo:
         self.name = name
 
     def url(self):
-        return "https://github.com/" + self.name + ".git"
+        return "https://nouser:nopass@github.com/" + self.name + ".git"
 
 
 @contextmanager
@@ -25,7 +25,7 @@ def clone(repo):
         print("Cloning {0} into {1}".format(repo.url(), repo.dir))
 
     with open(os.devnull, "w") as FNULL:
-        subprocess.check_call(["git", "clone", repo.url(), repo.dir],
+        subprocess.check_call(["git", "clone", "-q", repo.url(), repo.dir],
                               stdout=FNULL, stderr=subprocess.STDOUT)
     yield repo
 
