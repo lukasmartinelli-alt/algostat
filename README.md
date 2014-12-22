@@ -75,15 +75,11 @@ You can use Docker to run the application in a distributed setup.
 Run the redis server.
 
 ```
-docker run --name redis -d sameersbn/redis:latest
+docker run --name redis -p 6379:6379 -d sameersbn/redis:latest
 ```
 
-Get the IP address of your redis server. Assign it to the `ALGOSTAT_RQ_HOST` env variable for each `docker run` command.
+Get the IP address of your redis server. Assign it to the `ALGOSTAT_RQ_HOST` env variable for all following `docker run` commands. In this example we will work with `104.131.5.11`.
 
-```
-ALGOSTAT_RQ_HOST=$(docker inspect --format {{.NetworkSettings.IPAddress}} redis)
-echo $ALGOSTAT_RQ_HOST
-```
 
 ### Get the image
 
@@ -103,7 +99,7 @@ docker build -t lukasmartinelli/algostat .
 
 ```
 docker run -it --rm --name queue-filler \
--e ALGOSTAT_RQ_HOST=$ALGOSTAT_RQ_HOST \
+-e ALGOSTAT_RQ_HOST=104.131.5.11 \
 -e ALGOSTAT_RQ_PORT=6379 \
 lukasmartinelli/algostat bash -c "cat cpp_repos.txt | ./enqueue-jobs.py"
 ```
@@ -114,7 +110,7 @@ Assign as many workers as you like.
 
 ```
 docker run -it --rm --name worker1 \
--e ALGOSTAT_RQ_HOST=localhost \
+-e ALGOSTAT_RQ_HOST=104.131.5.11 \
 -e ALGOSTAT_RQ_PORT=6379 \
 lukasmartinelli/algostat bash -c "./algostat.py --rq | ./enqueue-results.py"
 ```
@@ -125,7 +121,7 @@ Note that this step is not repeatable. Once you've aggregated the results the re
 
 ```
 docker run -it --rm --name result-aggregator \
--e ALGOSTAT_RQ_HOST=localhost \
+-e ALGOSTAT_RQ_HOST=104.131.5.11 \
 -e ALGOSTAT_RQ_PORT=6379 \
 lukasmartinelli/algostat bash -c "./fetch-results.py | ./create-csv.py"
 ```
