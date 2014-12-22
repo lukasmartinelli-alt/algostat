@@ -78,48 +78,54 @@ Run the redis server.
 docker run --name redis -d sameersbn/redis:latest
 ```
 
-Get the IP address of your redis server.
+Get the IP address of your redis server. Assign it to the `ALGOSTAT_RQ_HOST` env variable for each `docker run` command.
 
 ```
 ALGOSTAT_RQ_HOST=$(docker inspect --format {{.NetworkSettings.IPAddress}} redis)
 echo $ALGOSTAT_RQ_HOST
 ```
 
-### Create image
+### Get the image
 
-Clone the repo and build a docker image.
+I have already setup an automated build `lukasmartinelli/algostat` which you can use.
+
+```
+docker pull lukasmartinelli/algostat
+```
+
+Or you can clone the repo and build the docker image yourself.
+
 ```
 docker build -t lukasmartinelli/algostat .
 ```
 
 ### Fill job queue
 
-Fill the job queue. You need to specifiy the hostname of the redis server.
-Use the IP address we extracted earlier.
-
 ```
 docker run -it --rm --name queue-filler \
 -e ALGOSTAT_RQ_HOST=$ALGOSTAT_RQ_HOST \
 -e ALGOSTAT_RQ_PORT=6379 \
-algostat bash -c "cat cpp_repos.txt | ./enqueue-jobs.py"
+lukasmartinelli/algostat bash -c "cat cpp_repos.txt | ./enqueue-jobs.py"
 ```
 
 ### Run the workers
 
-On all your worker machines you need to start the workers.
+Assign as many workers as you like.
 
 ```
 docker run -it --rm --name worker1 \
 -e ALGOSTAT_RQ_HOST=localhost \
 -e ALGOSTAT_RQ_PORT=6379 \
-algostat bash -c "./algostat.py --rq | ./enqueue-results.py"
+lukasmartinelli/algostat bash -c "./algostat.py --rq | ./enqueue-results.py"
 ```
 
 ### Aggregate results
+
+Note that this step is not repeatable. Once you've aggregated the results the redis list will be empty.
 
 ```
 docker run -it --rm --name result-aggregator \
 -e ALGOSTAT_RQ_HOST=localhost \
 -e ALGOSTAT_RQ_PORT=6379 \
-algostat bash -c "./fetch-results.py | ./create-csv.py"
+lukasmartinelli/algostat bash -c "./fetch-results.py | ./create-csv.py"
 ```
