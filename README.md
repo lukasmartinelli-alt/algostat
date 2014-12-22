@@ -10,29 +10,29 @@ You can look at the results of 4246 analyzed C++ repos in my
 
 ![Diagram of top 10 algorithms](https://docs.google.com/a/lukasmartinelli.ch/spreadsheets/d/125CRiE0_2uHeMhj84hAVtpAatDwWWl-H71Y5JshaaUM/pubchart?oid=1597254254&format=image)
 
-algorithm  |  sum     |  avg
------------|----------|-----
-min        |  353375  |  83
-move       |  337831  |  80
-max        |  313677  |  74
-count      |  302732  |  71
-copy       |  252711  |  60
-find       |  196007  |  46
-swap       |  164175  |  39
-remove     |  158525  |  37
-equal      |  137456  |  32
-sort       |  113029  |  27
-reverse    |  93469   |  22
-unique     |  85339   |  20
-search     |  63121   |  15
-fill       |  60227   |  14
-replace    |  57337   |  14
-transform  |  51437   |  12
-generate   |  39144   |  9
-merge      |  37696   |  9
-for_each   |  23917   |  6
+algorithm                                                         |  sum     |  avg
+------------------------------------------------------------------|----------|-------
+[min](http://en.cppreference.com/w/cpp/algorithm/min)             |  353375  |  83
+[move](http://en.cppreference.com/w/cpp/algorithm/move)           |  337831  |  80
+[max](http://en.cppreference.com/w/cpp/algorithm/max)             |  313677  |  74
+[count](http://en.cppreference.com/w/cpp/algorithm/count)         |  302732  |  71
+[copy](http://en.cppreference.com/w/cpp/algorithm/copy)           |  252711  |  60
+[find](http://en.cppreference.com/w/cpp/algorithm/find)           |  196007  |  46
+[swap](http://en.cppreference.com/w/cpp/algorithm/swap)           |  164175  |  39
+[remove](http://en.cppreference.com/w/cpp/algorithm/remove)       |  158525  |  37
+[equal](http://en.cppreference.com/w/cpp/algorithm/equal)         |  137456  |  32
+[sort](http://en.cppreference.com/w/cpp/algorithm/sort)           |  113029  |  27
+[reverse](http://en.cppreference.com/w/cpp/algorithm/reverse)     |  93469   |  22
+[unique](http://en.cppreference.com/w/cpp/algorithm/unique)       |  85339   |  20
+[search](http://en.cppreference.com/w/cpp/algorithm/search)       |  63121   |  15
+[fill](http://en.cppreference.com/w/cpp/algorithm/fill)           |  60227   |  14
+[replace](http://en.cppreference.com/w/cpp/algorithm/replace)     |  57337   |  14
+[transform](http://en.cppreference.com/w/cpp/algorithm/transform) |  51437   |  12
+[generate](http://en.cppreference.com/w/cpp/algorithm/generate)   |  39144   |  9
+[merge](http://en.cppreference.com/w/cpp/algorithm/merge)         |  37696   |  9
+[for_each](http://en.cppreference.com/w/cpp/algorithm/for_each)   |  23917   |  6
 
-## Usage
+##Usage
 
 For best mode you should disable input and output buffering of Python.
 
