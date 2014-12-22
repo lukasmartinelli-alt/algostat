@@ -37,7 +37,8 @@ You need to provide the `ALGOSTAT_RQ` environment variable to the process with t
 address of the redis server.
 
 ```
-export ALGOSTAT_RQ="localhost:6379"
+export ALGOSTAT_RQ_HOST="localhost"
+export ALGOSTAT_RQ_PORT="6379"
 ```
 
 Now you need to fill the job queue.
@@ -64,3 +65,61 @@ After that you aggregate the results in a single csv.
 1. Make sure you have Python 3 installed
 2. Clone the repository
 3. Install requirements with `pip install -r requirements.txt`
+
+## Using Docker for Deployment
+
+You can use Docker to run the application in a distributed setup.
+
+### Redis
+
+Run the redis server.
+
+```
+docker run --name redis -d sameersbn/redis:latest
+```
+
+Get the IP address of your redis server.
+
+```
+ALGOSTAT_RQ_HOST=$(docker inspect --format {{.NetworkSettings.IPAddress}} redis)
+echo $ALGOSTAT_RQ_HOST
+```
+
+### Create image
+
+Clone the repo and build a docker image.
+```
+docker build -t lukasmartinelli/algostat .
+```
+
+### Fill job queue
+
+Fill the job queue. You need to specifiy the hostname of the redis server.
+Use the IP address we extracted earlier.
+
+```
+docker run -it --rm --name queue-filler \
+-e ALGOSTAT_RQ_HOST=$ALGOSTAT_RQ_HOST \
+-e ALGOSTAT_RQ_PORT=6379 \
+algostat bash -c "cat cpp_repos.txt | ./enqueue-jobs.py"
+```
+
+### Run the workers
+
+On all your worker machines you need to start the workers.
+
+```
+docker run -it --rm --name worker1 \
+-e ALGOSTAT_RQ_HOST=localhost \
+-e ALGOSTAT_RQ_PORT=6379 \
+algostat bash -c "./algostat.py --rq | ./enqueue-results.py"
+```
+
+### Aggregate results
+
+```
+docker run -it --rm --name result-aggregator \
+-e ALGOSTAT_RQ_HOST=localhost \
+-e ALGOSTAT_RQ_PORT=6379 \
+algostat bash -c "./fetch-results.py | ./create-csv.py"
+```
