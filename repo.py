@@ -12,7 +12,7 @@ class GitRepo:
         self.name = name
 
     def url(self):
-        return "git@github.com:" + self.name + ".git"
+        return "https://github.com/" + self.name + ".git"
 
 
 @contextmanager
