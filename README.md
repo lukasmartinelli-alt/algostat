@@ -4,7 +4,10 @@ Tools to find the most frequently used C++ algorithms on Github.
 
 ## Results
 
-You can look and filter the results in [results.csv](results.csv).
+You can look at the results in my [Google Spreadsheets](https://docs.google.com/spreadsheets/d/125CRiE0_2uHeMhj84hAVtpAatDwWWl-H71Y5JshaaUM/pubhtml)
+ or use the [results.csv](results.csv) directly.
+
+<iframe width="729" height="200" src="https://docs.google.com/a/lukasmartinelli.ch/spreadsheets/d/125CRiE0_2uHeMhj84hAVtpAatDwWWl-H71Y5JshaaUM/pubchart?oid=1597254254&format=interactive"></iframe>
 
 ## Usage
 
