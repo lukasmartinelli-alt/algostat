@@ -1,13 +1,36 @@
 # Algostat
 
-Tools to find the most frequently used C++ algorithms on Github.
+Tools to find the most frequently used [C++ algorithms](http://en.cppreference.com/w/cpp/algorithm) on Github.
 
 ## Results
 
-You can look at the results in my [Google Spreadsheets](https://docs.google.com/spreadsheets/d/125CRiE0_2uHeMhj84hAVtpAatDwWWl-H71Y5JshaaUM/pubhtml)
+You can look at the results of 4246 analyzed C++ repos in my
+[Google Spreadsheets](https://docs.google.com/spreadsheets/d/125CRiE0_2uHeMhj84hAVtpAatDwWWl-H71Y5JshaaUM/pubhtml)
  or use the [results.csv](results.csv) directly.
 
 ![Diagram of top 10 algorithms](https://docs.google.com/a/lukasmartinelli.ch/spreadsheets/d/125CRiE0_2uHeMhj84hAVtpAatDwWWl-H71Y5JshaaUM/pubchart?oid=1597254254&format=image)
+
+algorithm  |  sum     |  avg
+-----------|----------|-----
+min        |  353375  |  83
+move       |  337831  |  80
+max        |  313677  |  74
+count      |  302732  |  71
+copy       |  252711  |  60
+find       |  196007  |  46
+swap       |  164175  |  39
+remove     |  158525  |  37
+equal      |  137456  |  32
+sort       |  113029  |  27
+reverse    |  93469   |  22
+unique     |  85339   |  20
+search     |  63121   |  15
+fill       |  60227   |  14
+replace    |  57337   |  14
+transform  |  51437   |  12
+generate   |  39144   |  9
+merge      |  37696   |  9
+for_each   |  23917   |  6
 
 ## Usage
 
