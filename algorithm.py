@@ -54,7 +54,7 @@ def count_algorithms(cpp_file):
     try:
         for line in cpp_file:
             for algo in algorithms:
-                if algo in line:
+                if algo + "(" in line:
                     algorithms[algo] += 1
     except UnicodeDecodeError:
         # We cannot do anything if we don't know the encoding of the file
