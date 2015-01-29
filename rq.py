@@ -13,7 +13,7 @@ JOBS_LIST = "algostat:jobs"
 RESULTS_LIST = "algostat:results"
 
 
-class RedisQueue:
+class RedisQueue(object):
     def __init__(self, redis):
         self.redis = redis
 
@@ -32,9 +32,10 @@ class RedisQueue:
         while self.redis.llen(RESULTS_LIST) > 0:
             yield self.redis.lpop(RESULTS_LIST).decode("utf-8")
 
-    def from_config():
+    def from_config(self):
         if "VCAP_SERVICES" in os.environ:
-            rediscloud_service = json.loads(os.environ[CLOUDFOUNDRY_ENV])['rediscloud'][0]
+            cf_config = os.environ[CLOUDFOUNDRY_ENV]
+            rediscloud_service = json.loads(cf_config)['rediscloud'][0]
             credentials = rediscloud_service['credentials']
             redis = Redis(host=credentials['hostname'],
                           port=credentials['port'],

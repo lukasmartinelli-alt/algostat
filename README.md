@@ -1,7 +1,7 @@
 # Algostat
 [![Build Status](https://travis-ci.org/lukasmartinelli/algostat.svg)](https://travis-ci.org/lukasmartinelli/algostat)
 [![Coverage Status](https://coveralls.io/repos/lukasmartinelli/algostat/badge.svg)](https://coveralls.io/r/lukasmartinelli/algostat)
-[![Code Health](https://landscape.io/github/lukasmartinelli/algostat/master/landscape.svg?style=flat)](https://landscape.io/github/lukasmartinelli/algostat/master) 
+[![Code Health](https://landscape.io/github/lukasmartinelli/algostat/master/landscape.svg?style=flat)](https://landscape.io/github/lukasmartinelli/algostat/master)
 [![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/lukasmartinelli/algostat.svg?style=flat)](https://scrutinizer-ci.com/g/lukasmartinelli/algostat/?branch=master)
 
 
@@ -54,7 +54,7 @@ Analyze the top C++ repos on Github and create a CSV file.
 Analyze all C++ repos listed in [GHTorrent](http://ghtorrent.org/).
 
 ```
-cpp_repos.txt | ./algostat.py | ./create-csv.py > results.csv
+cat cpp_repos.txt | ./algostat.py | ./create-csv.py > results.csv
 ```
 
 ### Distributed Analyzing with Redis Queue and workers
@@ -68,10 +68,13 @@ export ALGOSTAT_RQ_HOST="localhost"
 export ALGOSTAT_RQ_PORT="6379"
 ```
 
-Now you need to fill the job queue.
+Now you need to fill the job queue with results from top github repos
+and repos listed in GHTorrent and sort out the duplicates.
 
 ```
-cpp_repos.txt | ./enqueue-jobs.py
+./top-github-repos.py >> jobs.txt
+cat cpp_repos.txt >> jobs.txt
+sort -u jobs.txt | ./enqueue-jobs.py
 ```
 
 On your workers you need to tell  `algostat.py` to fetch the jobs from

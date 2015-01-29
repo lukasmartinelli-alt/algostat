@@ -7,7 +7,7 @@ from contextlib import contextmanager
 VERBOSE = "ALGOSTAT_VERBOSE" in os.environ
 
 
-class GitRepo:
+class GitRepo(object):
     def __init__(self, name):
         self.name = name
 
