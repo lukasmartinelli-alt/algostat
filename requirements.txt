@@ -1,3 +1,5 @@
 requests==2.4.3
 docopt==0.6.2
 redis==2.10.3
+pytest==2.6.4
+pytest-cov==1.8.1
