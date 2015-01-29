@@ -1,4 +1,9 @@
 # Algostat
+[![Build Status](https://travis-ci.org/lukasmartinelli/algostat.svg)](https://travis-ci.org/lukasmartinelli/algostat)
+[![Coverage Status](https://coveralls.io/repos/lukasmartinelli/algostat/badge.svg)](https://coveralls.io/r/lukasmartinelli/algostat)
+[![Code Health](https://landscape.io/github/lukasmartinelli/algostat/master/landscape.svg?style=flat)](https://landscape.io/github/lukasmartinelli/algostat/master) 
+[![Scrutinizer Code Quality](https://img.shields.io/scrutinizer/g/lukasmartinelli/algostat.svg?style=flat)](https://scrutinizer-ci.com/g/lukasmartinelli/algostat/?branch=master)
+
 
 Tools to find the most frequently used [C++ algorithms](http://en.cppreference.com/w/cpp/algorithm) on Github.
 
